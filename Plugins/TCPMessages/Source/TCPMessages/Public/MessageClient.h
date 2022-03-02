@@ -4,6 +4,7 @@
 #include "JsonObjectConverter.h"
 #include "HAL/Runnable.h"
 #include "GenericPlatform/GenericPlatformProcess.h"
+#include "Tickable.h"
 #include "MessageClient.generated.h"
 
 USTRUCT(Blueprintable)
@@ -22,7 +23,7 @@ public:
 
 
 	static FString CleanJson(const FString& jsonString) {
-		return jsonString.Replace(TEXT("\r\n"), TEXT("")).Replace(TEXT("\t"), TEXT(""));
+		return jsonString.Replace(TEXT("\r"), TEXT("")).Replace(TEXT("\n"), TEXT("")).Replace(TEXT("\t"), TEXT(""));
 	}
 
 	template<typename InStructType>
@@ -51,10 +52,6 @@ public:
 		FString id;
 };
 
-
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnMessageReceived, FMessage, message);
-
-
 USTRUCT(Blueprintable)
 struct FMessagePart
 {
@@ -75,27 +72,25 @@ public:
 		int parts;
 };
 
-
 struct FMessageParts
 {
 public:
 	FMessageParts() = default;
-	FMessageParts(const FMessage& message);
-	TArray<FMessagePart> parts;
-	void Add(FMessagePart part);
+	FMessageParts(const FMessage& Message);
+	TArray<FMessagePart> Parts;
+	void Add(FMessagePart Part);
 	bool IsReady();
 	FMessage Join();
-	FMessagePart& GetPart(int seq);
+	FMessagePart& GetPart(int Seq);
 };
 
-struct FMessageEvent {
-	FMessageEvent();
-	~FMessageEvent();
-	FMessage Wait(int timeout);
-	void Trigger(FMessage message);
-	FMessage response;
-	TAtomic<bool> ready;
-};
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnMessageReceived, FMessage, message);
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnResponseReceived, FString, response);
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnResponseTimeOut);
+
 
 UCLASS(Blueprintable)
 class UMessageRoute : public UObject {
@@ -108,36 +103,67 @@ public:
 };
 
 
+UCLASS(Blueprintable)
+class URequest: public UObject {
+	GENERATED_BODY()
+public:
+	URequest() {}
+	float TimeOut;
+	UPROPERTY(BlueprintAssignable, Category = "TCPMessagesEvents")
+	FOnResponseReceived ResponseReceived;
+	UPROPERTY(BlueprintAssignable, Category = "TCPMessagesEvents")
+	FOnResponseTimeOut TimedOut;
+};
+
+
+class UMessageClient;
+
 class UMessageClientThread : public FRunnable
 {
 public:
-	UMessageClientThread(FSocket* host, FOnMessageReceived& message_received_event, FOnMessageReceived& unrouted_message_event);
+	UMessageClientThread(UMessageClient *Client);
 
 	virtual bool Init();
 	virtual uint32 Run();
 	virtual void Stop();
 	
-	bool AddMessageEvent(FString, FMessageEvent *);
 	bool Receive(FString &MessageString);
-	TMap<FString, FMessageEvent *> pending_responses;
-	FSocket* host;
-	TQueue<FMessage> messages;
-	TMap <FString, FMessageParts> partial_messages;
-	TMap <FString, UMessageRoute *> routes;
-	TAtomic<bool> is_running;
-	TAtomic<bool> finished;
-	FOnMessageReceived &message_received_event;
-	FOnMessageReceived &unrouted_message_event;
+
+	UMessageClient* Client;
+	TMap <FString, FMessageParts> PartialMessages;
+	TAtomic<bool> IsRunning;
+	TAtomic<bool> Finished;
 	
 };
 
 
 UCLASS(Blueprintable)
-class TCPMESSAGES_API UMessageClient : public UObject
+class TCPMESSAGES_API UMessageClient : public UObject, public FTickableGameObject
 {
 	GENERATED_BODY()
 
 public:
+	// FTickableGameObject Begin
+	virtual void Tick(float DeltaTime) override;
+
+	virtual ETickableTickType GetTickableTickType() const override
+	{
+		return ETickableTickType::Always;
+	}
+	virtual TStatId GetStatId() const override
+	{
+		RETURN_QUICK_DECLARE_CYCLE_STAT(FMyTickableThing, STATGROUP_Tickables);
+	}
+	virtual bool IsTickableWhenPaused() const
+	{
+		return true;
+	}
+	virtual bool IsTickableInEditor() const
+	{
+		return false;
+	}
+	// FTickableGameObject End
+
 	UMessageClient();
 
 	UFUNCTION(BlueprintCallable, Category = "TCPMessages")
@@ -146,16 +172,19 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "TCPMessages")
 	static FMessage NewMessage(const FString &header, const FString &body);
 
-	bool Send(const FString & messageString);
+	bool Send(const FString & MessageString);
 
 	UFUNCTION(BlueprintCallable, Category = "TCPMessages")
-	bool Subscribe();
+	URequest *Subscribe();
+
+	UFUNCTION(BlueprintCallable, Category = "TCPMessages")
+	URequest* Ping();
 
 	UFUNCTION(BlueprintCallable, Category = "TCPMessages")
 	bool SendMessage(const FMessage & message);
 	
 	UFUNCTION(BlueprintCallable, Category = "TCPMessages")
-	FString SendRequest(const FString &header, const FString& body = "", int timeout = 0);
+	URequest *SendRequest(const FString& Header, const FString& Body, float TimeOut = -1);
 	
 	UFUNCTION(BlueprintCallable, Category = "TCPMessages")
 	bool Connect(FString ServerIp, int ServerPort);
@@ -176,10 +205,11 @@ public:
 	FOnMessageReceived UnroutedMessageEvent;
 
 
-	FSocket* host;
-	TMap <FString, FMessageParts> partials;
-	FRunnableThread* receiver_thread;
-	UMessageClientThread *client_thread = nullptr;
-	FRunnableThread* running_thread = nullptr;
+	FSocket* Host;
+	UMessageClientThread *ClientThread = nullptr;
+	FRunnableThread* RunningThread = nullptr;
+	TQueue<FMessage> Messages;
+	TMap <FString, UMessageRoute*> Routes;
+	TMap <FString, URequest*> PendingRequests;
 };
 
