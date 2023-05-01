@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TCPMessages.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Research\vr\Experiment\Intermediate\Build\Win64\ExperimentEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Research\vr\Experiment\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\Module.TCPMessages.cpp.obj"
+"C:\Research\vr\Experiment\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\Module.TCPMessages.gen.cpp.obj"
+"C:\Research\vr\Experiment\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\Default.rc2.res"
+/OUT:"C:\Research\vr\Experiment\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\UE4Editor-TCPMessages.lib"
+/INCLUDE:IMPLEMENT_MODULE_TCPMessages

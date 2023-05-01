@@ -133,7 +133,6 @@ public:
 	TMap <FString, FMessageParts> PartialMessages;
 	TAtomic<bool> IsRunning;
 	TAtomic<bool> Finished;
-	
 };
 
 
@@ -203,7 +202,6 @@ public:
 
 	UPROPERTY(BlueprintAssignable, Category = "TCPMessagesEvents")
 	FOnMessageReceived UnroutedMessageEvent;
-
 
 	FSocket* Host;
 	UMessageClientThread *ClientThread = nullptr;

@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ExperimentPlugin.cpp.obj": [
+			"ExperimentPlugin.cpp.obj",
+			"ExperimentUtils.cpp.obj"
+		],
+		"Module.ExperimentPlugin.gen.cpp.obj": [
+			"ExperimentPlugin.init.gen.cpp.obj",
+			"ExperimentUtils.gen.cpp.obj",
+			"Structs.gen.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ExperimentPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Research\vr\Experiment\Intermediate\Build\Win64\ExperimentEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Research\vr\Experiment\Plugins\ExperimentPlugin\Intermediate\Build\Win64\UE4Editor\Development\ExperimentPlugin\Module.ExperimentPlugin.cpp.obj"
+"C:\Research\vr\Experiment\Plugins\ExperimentPlugin\Intermediate\Build\Win64\UE4Editor\Development\ExperimentPlugin\Module.ExperimentPlugin.gen.cpp.obj"
+"C:\Research\vr\Experiment\Plugins\ExperimentPlugin\Intermediate\Build\Win64\UE4Editor\Development\ExperimentPlugin\Default.rc2.res"
+/OUT:"C:\Research\vr\Experiment\Plugins\ExperimentPlugin\Intermediate\Build\Win64\UE4Editor\Development\ExperimentPlugin\UE4Editor-ExperimentPlugin.lib"
+/INCLUDE:IMPLEMENT_MODULE_ExperimentPlugin
