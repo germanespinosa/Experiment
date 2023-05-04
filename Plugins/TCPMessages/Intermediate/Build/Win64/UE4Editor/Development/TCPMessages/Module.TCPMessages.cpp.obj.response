@@ -31,7 +31,7 @@
 /wd4244
 /wd4838
 /I .
-/I C:\Research\vr\Experiment\Plugins\TCPMessages\Source\TCPMessages\Private
+/I C:\Users\dilan\source\repos\Experiment\Plugins\TCPMessages\Source\TCPMessages\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime
 /I Runtime\CoreUObject\Public
@@ -234,9 +234,9 @@
 /I Runtime\Networking\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\JsonUtilities
 /I Runtime\JsonUtilities\Public
-/I C:\Research\vr\Experiment\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Inc\TCPMessages
-/I C:\Research\vr\Experiment\Plugins\TCPMessages\Source
-/I C:\Research\vr\Experiment\Plugins\TCPMessages\Source\TCPMessages\Public
+/I C:\Users\dilan\source\repos\Experiment\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Inc\TCPMessages
+/I C:\Users\dilan\source\repos\Experiment\Plugins\TCPMessages\Source
+/I C:\Users\dilan\source\repos\Experiment\Plugins\TCPMessages\Source\TCPMessages\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -266,12 +266,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Research\vr\Experiment\Intermediate\Build\Win64\ExperimentEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Research\vr\Experiment\Intermediate\Build\Win64\ExperimentEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Research\vr\Experiment\Intermediate\Build\Win64\ExperimentEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Research\vr\Experiment\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\Module.TCPMessages.cpp"
-/FI"C:\Research\vr\Experiment\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\Definitions.TCPMessages.h"
-/Fo"C:\Research\vr\Experiment\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\Module.TCPMessages.cpp.obj"
+/FI"C:\Users\dilan\source\repos\Experiment\Intermediate\Build\Win64\ExperimentEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\dilan\source\repos\Experiment\Intermediate\Build\Win64\ExperimentEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\dilan\source\repos\Experiment\Intermediate\Build\Win64\ExperimentEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\dilan\source\repos\Experiment\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\Module.TCPMessages.cpp"
+/FI"C:\Users\dilan\source\repos\Experiment\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\Definitions.TCPMessages.h"
+/Fo"C:\Users\dilan\source\repos\Experiment\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\Module.TCPMessages.cpp.obj"
 /TP
 /GR-
 /W4
