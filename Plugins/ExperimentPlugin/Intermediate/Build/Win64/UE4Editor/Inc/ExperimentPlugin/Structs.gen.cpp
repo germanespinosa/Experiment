@@ -50,7 +50,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFColumnsWrappe
 {
 	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFColumnsWrapper()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("ColumnsWrapper")),new UScriptStruct::TCppStructOps<FColumnsWrapper>);
+		UScriptStruct::DeferCppStructOps<FColumnsWrapper>(FName(TEXT("ColumnsWrapper")));
 	}
 } ScriptStruct_ExperimentPlugin_StaticRegisterNativesFColumnsWrapper;
 	struct Z_Construct_UScriptStruct_FColumnsWrapper_Statics
@@ -138,7 +138,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFWorldImplemen
 {
 	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFWorldImplementation()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("WorldImplementation")),new UScriptStruct::TCppStructOps<FWorldImplementation>);
+		UScriptStruct::DeferCppStructOps<FWorldImplementation>(FName(TEXT("WorldImplementation")));
 	}
 } ScriptStruct_ExperimentPlugin_StaticRegisterNativesFWorldImplementation;
 	struct Z_Construct_UScriptStruct_FWorldImplementation_Statics
@@ -250,7 +250,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFSpace
 {
 	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFSpace()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("Space")),new UScriptStruct::TCppStructOps<FSpace>);
+		UScriptStruct::DeferCppStructOps<FSpace>(FName(TEXT("Space")));
 	}
 } ScriptStruct_ExperimentPlugin_StaticRegisterNativesFSpace;
 	struct Z_Construct_UScriptStruct_FSpace_Statics
@@ -359,7 +359,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFShape
 {
 	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFShape()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("Shape")),new UScriptStruct::TCppStructOps<FShape>);
+		UScriptStruct::DeferCppStructOps<FShape>(FName(TEXT("Shape")));
 	}
 } ScriptStruct_ExperimentPlugin_StaticRegisterNativesFShape;
 	struct Z_Construct_UScriptStruct_FShape_Statics
@@ -444,7 +444,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFTransformatio
 {
 	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFTransformation()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("Transformation")),new UScriptStruct::TCppStructOps<FTransformation>);
+		UScriptStruct::DeferCppStructOps<FTransformation>(FName(TEXT("Transformation")));
 	}
 } ScriptStruct_ExperimentPlugin_StaticRegisterNativesFTransformation;
 	struct Z_Construct_UScriptStruct_FTransformation_Statics
@@ -541,7 +541,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFUpdateGhostMo
 {
 	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFUpdateGhostMovementMessage()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("UpdateGhostMovementMessage")),new UScriptStruct::TCppStructOps<FUpdateGhostMovementMessage>);
+		UScriptStruct::DeferCppStructOps<FUpdateGhostMovementMessage>(FName(TEXT("UpdateGhostMovementMessage")));
 	}
 } ScriptStruct_ExperimentPlugin_StaticRegisterNativesFUpdateGhostMovementMessage;
 	struct Z_Construct_UScriptStruct_FUpdateGhostMovementMessage_Statics
@@ -638,7 +638,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFFinishEpisode
 {
 	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFFinishEpisodeResponse()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("FinishEpisodeResponse")),new UScriptStruct::TCppStructOps<FFinishEpisodeResponse>);
+		UScriptStruct::DeferCppStructOps<FFinishEpisodeResponse>(FName(TEXT("FinishEpisodeResponse")));
 	}
 } ScriptStruct_ExperimentPlugin_StaticRegisterNativesFFinishEpisodeResponse;
 	struct Z_Construct_UScriptStruct_FFinishEpisodeResponse_Statics
@@ -723,7 +723,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFFinishEpisode
 {
 	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFFinishEpisodeRequest()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("FinishEpisodeRequest")),new UScriptStruct::TCppStructOps<FFinishEpisodeRequest>);
+		UScriptStruct::DeferCppStructOps<FFinishEpisodeRequest>(FName(TEXT("FinishEpisodeRequest")));
 	}
 } ScriptStruct_ExperimentPlugin_StaticRegisterNativesFFinishEpisodeRequest;
 	struct Z_Construct_UScriptStruct_FFinishEpisodeRequest_Statics
@@ -808,7 +808,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFStartEpisodeR
 {
 	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFStartEpisodeResponse()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("StartEpisodeResponse")),new UScriptStruct::TCppStructOps<FStartEpisodeResponse>);
+		UScriptStruct::DeferCppStructOps<FStartEpisodeResponse>(FName(TEXT("StartEpisodeResponse")));
 	}
 } ScriptStruct_ExperimentPlugin_StaticRegisterNativesFStartEpisodeResponse;
 	struct Z_Construct_UScriptStruct_FStartEpisodeResponse_Statics
@@ -908,7 +908,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFStartEpisodeR
 {
 	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFStartEpisodeRequest()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("StartEpisodeRequest")),new UScriptStruct::TCppStructOps<FStartEpisodeRequest>);
+		UScriptStruct::DeferCppStructOps<FStartEpisodeRequest>(FName(TEXT("StartEpisodeRequest")));
 	}
 } ScriptStruct_ExperimentPlugin_StaticRegisterNativesFStartEpisodeRequest;
 	struct Z_Construct_UScriptStruct_FStartEpisodeRequest_Statics
@@ -993,7 +993,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFAgentState
 {
 	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFAgentState()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("AgentState")),new UScriptStruct::TCppStructOps<FAgentState>);
+		UScriptStruct::DeferCppStructOps<FAgentState>(FName(TEXT("AgentState")));
 	}
 } ScriptStruct_ExperimentPlugin_StaticRegisterNativesFAgentState;
 	struct Z_Construct_UScriptStruct_FAgentState_Statics
@@ -1126,7 +1126,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFRotation3
 {
 	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFRotation3()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("Rotation3")),new UScriptStruct::TCppStructOps<FRotation3>);
+		UScriptStruct::DeferCppStructOps<FRotation3>(FName(TEXT("Rotation3")));
 	}
 } ScriptStruct_ExperimentPlugin_StaticRegisterNativesFRotation3;
 	struct Z_Construct_UScriptStruct_FRotation3_Statics
@@ -1235,7 +1235,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFLocation3
 {
 	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFLocation3()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("Location3")),new UScriptStruct::TCppStructOps<FLocation3>);
+		UScriptStruct::DeferCppStructOps<FLocation3>(FName(TEXT("Location3")));
 	}
 } ScriptStruct_ExperimentPlugin_StaticRegisterNativesFLocation3;
 	struct Z_Construct_UScriptStruct_FLocation3_Statics
@@ -1344,7 +1344,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFCoordinates
 {
 	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFCoordinates()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("Coordinates")),new UScriptStruct::TCppStructOps<FCoordinates>);
+		UScriptStruct::DeferCppStructOps<FCoordinates>(FName(TEXT("Coordinates")));
 	}
 } ScriptStruct_ExperimentPlugin_StaticRegisterNativesFCoordinates;
 	struct Z_Construct_UScriptStruct_FCoordinates_Statics
@@ -1441,7 +1441,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFLocation
 {
 	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFLocation()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("Location")),new UScriptStruct::TCppStructOps<FLocation>);
+		UScriptStruct::DeferCppStructOps<FLocation>(FName(TEXT("Location")));
 	}
 } ScriptStruct_ExperimentPlugin_StaticRegisterNativesFLocation;
 	struct Z_Construct_UScriptStruct_FLocation_Statics

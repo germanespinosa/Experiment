@@ -29,7 +29,7 @@ void EmptyLinkFunctionForGeneratedCodeTCPMessages_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x8364C8AA,
+				0x028ABF0F,
 				0x6F3E9800,
 				METADATA_PARAMS(nullptr, 0)
 			};

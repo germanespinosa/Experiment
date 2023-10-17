@@ -27,8 +27,8 @@ struct FAgentState;
 #endif
 #define EXPERIMENTPLUGIN_ExperimentUtils_generated_h
 
-#define Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_SPARSE_DATA
-#define Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_RPC_WRAPPERS \
+#define Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_SPARSE_DATA
+#define Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execUpdateGhostMovementMessageToJsonString); \
 	DECLARE_FUNCTION(execJsonStringToUpdateGhostMovementMessage); \
@@ -60,7 +60,7 @@ struct FAgentState;
 	DECLARE_FUNCTION(execJsonStringToAgentState);
 
 
-#define Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execUpdateGhostMovementMessageToJsonString); \
 	DECLARE_FUNCTION(execJsonStringToUpdateGhostMovementMessage); \
@@ -92,7 +92,7 @@ struct FAgentState;
 	DECLARE_FUNCTION(execJsonStringToAgentState);
 
 
-#define Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_INCLASS_NO_PURE_DECLS \
+#define Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUExperimentUtils(); \
 	friend struct Z_Construct_UClass_UExperimentUtils_Statics; \
@@ -101,7 +101,7 @@ public: \
 	DECLARE_SERIALIZER(UExperimentUtils)
 
 
-#define Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_INCLASS \
+#define Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_INCLASS \
 private: \
 	static void StaticRegisterNativesUExperimentUtils(); \
 	friend struct Z_Construct_UClass_UExperimentUtils_Statics; \
@@ -110,12 +110,12 @@ public: \
 	DECLARE_SERIALIZER(UExperimentUtils)
 
 
-#define Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_STANDARD_CONSTRUCTORS \
+#define Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UExperimentUtils(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UExperimentUtils) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UExperimentUtils); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UExperimentUtils); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UExperimentUtils); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UExperimentUtils(UExperimentUtils&&); \
@@ -123,7 +123,7 @@ private: \
 public:
 
 
-#define Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_ENHANCED_CONSTRUCTORS \
+#define Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UExperimentUtils(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -132,32 +132,32 @@ private: \
 	NO_API UExperimentUtils(const UExperimentUtils&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UExperimentUtils); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UExperimentUtils); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UExperimentUtils); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UExperimentUtils)
 
 
-#define Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_PRIVATE_PROPERTY_OFFSET
-#define Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_6_PROLOG
-#define Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_GENERATED_BODY_LEGACY \
+#define Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_PRIVATE_PROPERTY_OFFSET
+#define Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_6_PROLOG
+#define Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_PRIVATE_PROPERTY_OFFSET \
-	Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_SPARSE_DATA \
-	Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_RPC_WRAPPERS \
-	Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_INCLASS \
-	Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_STANDARD_CONSTRUCTORS \
+	Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_PRIVATE_PROPERTY_OFFSET \
+	Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_SPARSE_DATA \
+	Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_RPC_WRAPPERS \
+	Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_INCLASS \
+	Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_GENERATED_BODY \
+#define Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_PRIVATE_PROPERTY_OFFSET \
-	Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_SPARSE_DATA \
-	Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_RPC_WRAPPERS_NO_PURE_DECLS \
-	Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_INCLASS_NO_PURE_DECLS \
-	Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_ENHANCED_CONSTRUCTORS \
+	Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_PRIVATE_PROPERTY_OFFSET \
+	Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_SPARSE_DATA \
+	Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_RPC_WRAPPERS_NO_PURE_DECLS \
+	Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_INCLASS_NO_PURE_DECLS \
+	Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_9_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -165,7 +165,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> EXPERIMENTPLUGIN_API UClass* StaticClass<class UExperimentUtils>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Experiment_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h
+#define CURRENT_FILE_ID Experiment_4_27_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

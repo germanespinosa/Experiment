@@ -132,7 +132,7 @@ static struct FScriptStruct_TCPMessages_StaticRegisterNativesFMessagePart
 {
 	FScriptStruct_TCPMessages_StaticRegisterNativesFMessagePart()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("MessagePart")),new UScriptStruct::TCppStructOps<FMessagePart>);
+		UScriptStruct::DeferCppStructOps<FMessagePart>(FName(TEXT("MessagePart")));
 	}
 } ScriptStruct_TCPMessages_StaticRegisterNativesFMessagePart;
 	struct Z_Construct_UScriptStruct_FMessagePart_Statics
@@ -265,7 +265,7 @@ static struct FScriptStruct_TCPMessages_StaticRegisterNativesFMessage
 {
 	FScriptStruct_TCPMessages_StaticRegisterNativesFMessage()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("Message")),new UScriptStruct::TCppStructOps<FMessage>);
+		UScriptStruct::DeferCppStructOps<FMessage>(FName(TEXT("Message")));
 	}
 } ScriptStruct_TCPMessages_StaticRegisterNativesFMessage;
 	struct Z_Construct_UScriptStruct_FMessage_Statics

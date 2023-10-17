@@ -34,14 +34,14 @@
 #define WITH_PUSH_MODEL 0
 #define WITH_CEF3 1
 #define WITH_LIVE_CODING 1
-#define UE_LIVE_CODING_ENGINE_DIR "C:\\Program Files\\Epic Games\\UE_4.26\\Engine"
-#define UE_LIVE_CODING_PROJECT "C:\\Users\\dilan\\source\\repos\\Experiment\\Experiment.uproject"
+#define UE_LIVE_CODING_ENGINE_DIR "C:\\Program Files\\Epic Games\\UE_4.27\\Engine"
+#define UE_LIVE_CODING_PROJECT "C:\\Research\\Experiment 4.27\\Experiment.uproject"
 #define UBT_MODULE_MANIFEST "UE4.modules"
 #define UBT_MODULE_MANIFEST_DEBUGGAME "UE4-Win64-DebugGame.modules"
 #define UBT_COMPILED_PLATFORM Win64
 #define UBT_COMPILED_TARGET Game
 #define UE_APP_NAME "UE4"
-#define UE_ENGINE_DIRECTORY "../../../../../../../Program Files/Epic Games/UE_4.26/Engine/"
+#define UE_ENGINE_DIRECTORY "../../../../Program Files/Epic Games/UE_4.27/Engine/"
 #define NDIS_MINIPORT_MAJOR_VERSION 0
 #define WIN32 1
 #define _WIN32_WINNT 0x0601
@@ -55,10 +55,13 @@
 #define UE_IS_ENGINE_MODULE 0
 #define UE_PROJECT_NAME Experiment
 #define UE_TARGET_NAME Experiment
+#define UE_MODULE_NAME "ExperimentPlugin"
+#define UE_PLUGIN_NAME "ExperimentPlugin"
 #define IMPLEMENT_ENCRYPTION_KEY_REGISTRATION() 
 #define IMPLEMENT_SIGNING_KEY_REGISTRATION() 
 #define DEPRECATED_FORGAME DEPRECATED
 #define UE_DEPRECATED_FORGAME UE_DEPRECATED
+#define UNIQUENETID_ESPMODE ESPMode::Fast
 #define COREUOBJECT_API 
 #define UE_ENABLE_ICU 1
 #define WITH_VS_PERF_PROFILER 0
@@ -80,6 +83,7 @@
 #define WITH_CUSTOM_SQ_STRUCTURE 0
 #define WITH_IMMEDIATE_PHYSX 0
 #define GPUPARTICLE_LOCAL_VF_ONLY 0
+#define WITH_ODSC 1
 #define ENGINE_API 
 #define NETCORE_API 
 #define APPLICATIONCORE_API 
@@ -108,6 +112,7 @@
 #define SYNTHBENCHMARK_API 
 #define RENDERER_API 
 #define GAMEPLAYTAGS_API 
+#define DEVELOPERSETTINGS_API 
 #define PACKETHANDLER_API 
 #define RELIABILITYHANDLERCOMPONENT_API 
 #define AUDIOPLATFORMCONFIGURATION_API 
@@ -130,7 +135,6 @@
 #define WITH_CUSTOM_SQ_STRUCTURE 0
 #define WITH_IMMEDIATE_PHYSX 0
 #define PHYSICSCORE_API 
-#define DEVELOPERSETTINGS_API 
 #define COMPILE_WITHOUT_UNREAL_SUPPORT 0
 #define INCLUDE_CHAOS 0
 #define CHAOS_MEMORY_TRACKING 0
