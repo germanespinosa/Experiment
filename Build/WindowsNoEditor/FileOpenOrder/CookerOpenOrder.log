@@ -8,10 +8,10 @@
 "C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_JumpEnd.uexp" 7
 "C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_JumpLoop.uasset" 8
 "C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_JumpLoop.uexp" 9
-"C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_Idle.uasset" 10
-"C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_Idle.uexp" 11
-"C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_JumpStart.uasset" 12
-"C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_JumpStart.uexp" 13
+"C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_JumpStart.uasset" 10
+"C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_JumpStart.uexp" 11
+"C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_Idle.uasset" 12
+"C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_Idle.uexp" 13
 "C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset" 14
 "C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_AnimBP.uexp" 15
 "C:/Research/Experiment 4.27/Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset" 16
@@ -219,15 +219,15 @@
 "C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 218
 "C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Basalt_D.uexp" 219
 "C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Basalt_D.ubulk" 220
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 221
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Detail_Rocky_N.uexp" 222
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Detail_Rocky_N.ubulk" 223
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_RockMesh_N.uasset" 224
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_RockMesh_N.uexp" 225
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_RockMesh_N.ubulk" 226
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_RockMesh_M.uasset" 227
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_RockMesh_M.uexp" 228
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_RockMesh_M.ubulk" 229
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_RockMesh_N.uasset" 221
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_RockMesh_N.uexp" 222
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_RockMesh_N.ubulk" 223
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_RockMesh_M.uasset" 224
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_RockMesh_M.uexp" 225
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_RockMesh_M.ubulk" 226
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 227
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Detail_Rocky_N.uexp" 228
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Detail_Rocky_N.ubulk" 229
 "C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_Rock.uasset" 230
 "C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_Rock.uexp" 231
 "C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Rock.uasset" 232
@@ -636,29 +636,29 @@
 "../../../Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uexp" 635
 "../../../Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 636
 "../../../Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uexp" 637
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset" 638
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uexp" 639
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ObjectScale.uasset" 640
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ObjectScale.uexp" 641
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 642
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uexp" 643
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackInteger3.uasset" 644
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackInteger3.uexp" 645
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackDirection.uasset" 646
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackDirection.uexp" 647
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.uasset" 648
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.uexp" 649
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.ubulk" 650
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 651
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uexp" 652
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWindMotion.uasset" 653
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWindMotion.uexp" 654
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBranchMotion.uasset" 655
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBranchMotion.uexp" 656
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uasset" 657
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uexp" 658
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset" 659
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uexp" 660
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 638
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uexp" 639
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackInteger3.uasset" 640
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackInteger3.uexp" 641
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackDirection.uasset" 642
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackDirection.uexp" 643
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.uasset" 644
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.uexp" 645
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.ubulk" 646
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 647
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uexp" 648
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWindMotion.uasset" 649
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWindMotion.uexp" 650
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBranchMotion.uasset" 651
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBranchMotion.uexp" 652
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uasset" 653
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uexp" 654
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset" 655
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uexp" 656
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset" 657
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uexp" 658
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ObjectScale.uasset" 659
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ObjectScale.uexp" 660
 "../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWind.uasset" 661
 "../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWind.uexp" 662
 "../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboard.uasset" 663
@@ -775,649 +775,616 @@
 "../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/ValveIndex/Right/MI_right_ValveIndex.uexp" 774
 "../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/ValveIndex/Right/right_ValveIndexController.uasset" 775
 "../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/ValveIndex/Right/right_ValveIndexController.uexp" 776
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 777
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uexp" 778
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 779
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uexp" 780
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 781
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uexp" 782
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 783
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uexp" 784
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 785
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uexp" 786
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 787
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uexp" 788
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.ubulk" 789
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 790
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uexp" 791
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.ubulk" 792
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 793
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uexp" 794
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 795
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uexp" 796
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/TouchForQuestRiftSController_albedo.uasset" 797
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/TouchForQuestRiftSController_albedo.uexp" 798
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/TouchForQuestRiftSController_albedo.ubulk" 799
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/TouchForQuestRiftSControllerMaterial.uasset" 800
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/TouchForQuestRiftSControllerMaterial.uexp" 801
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchForQuestRiftSController.uasset" 802
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchForQuestRiftSController.uexp" 803
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uasset" 804
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uexp" 805
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 806
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uexp" 807
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchForQuestRiftSController.uasset" 808
-"../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchForQuestRiftSController.uexp" 809
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 810
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uexp" 811
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.ubulk" 812
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 813
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uexp" 814
-"../../../Engine/Content/EngineSky/T_Sky_Stars.ubulk" 815
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 816
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uexp" 817
-"../../../Engine/Content/EngineSky/T_Sky_Blue.ubulk" 818
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 819
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uexp" 820
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 821
-"../../../Engine/Content/EngineSky/SM_SkySphere.uexp" 822
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 823
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uexp" 824
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 825
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uexp" 826
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 827
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uexp" 828
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 829
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uexp" 830
-"C:/Research/Experiment 4.27/Content/Spooky_Ghost/Ghost_BuiltData.uasset" 831
-"C:/Research/Experiment 4.27/Content/Spooky_Ghost/Ghost_BuiltData.uexp" 832
-"C:/Research/Experiment 4.27/Content/Spooky_Ghost/Ghost_BuiltData.ubulk" 833
-"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 834
-"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uexp" 835
-"C:/Research/Experiment 4.27/Content/Spooky_Ghost/Ghost.uexp" 836
-"C:/Research/Experiment 4.27/Content/Spooky_Ghost/Ghost.umap" 837
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 838
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uexp" 839
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uasset" 840
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uexp" 841
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.ubulk" 842
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 843
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uexp" 844
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 845
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uexp" 846
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 847
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uexp" 848
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 849
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uexp" 850
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 851
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uexp" 852
-"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" 853
-"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uexp" 854
-"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.ubulk" 855
-"C:/Research/Experiment 4.27/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 856
-"C:/Research/Experiment 4.27/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uexp" 857
-"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 858
-"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uexp" 859
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" 860
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uexp" 861
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" 862
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uexp" 863
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" 864
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uexp" 865
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_AssetPlatform.uasset" 866
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_AssetPlatform.uexp" 867
-"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" 868
-"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/SM_AssetPlatform.uexp" 869
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" 870
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/SM_Arrows.uexp" 871
-"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset" 872
-"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uexp" 873
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/Skybox.uasset" 874
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/Skybox.uexp" 875
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" 876
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uexp" 877
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" 878
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uexp" 879
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" 880
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uexp" 881
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/BP_LightStudio.uasset" 882
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/BP_LightStudio.uexp" 883
-"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Advanced_Lighting.uexp" 884
-"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Advanced_Lighting.umap" 885
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_TableRound_N.uasset" 886
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_TableRound_N.uexp" 887
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_TableRound_N.ubulk" 888
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_TableRound_M.uasset" 889
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_TableRound_M.uexp" 890
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_TableRound_M.ubulk" 891
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_TableRound.uasset" 892
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_TableRound.uexp" 893
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_TableRound.uasset" 894
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_TableRound.uexp" 895
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Statue_N.uasset" 896
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Statue_N.uexp" 897
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Statue_N.ubulk" 898
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Statue_M.uasset" 899
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Statue_M.uexp" 900
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Statue_M.ubulk" 901
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_Statue.uasset" 902
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_Statue.uexp" 903
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" 904
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_StatueGlass.uexp" 905
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Statue.uasset" 906
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Statue.uexp" 907
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Chair.uasset" 908
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Chair.uexp" 909
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" 910
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Copper_D.uexp" 911
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Copper_D.ubulk" 912
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" 913
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Gold_N.uexp" 914
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Gold_N.ubulk" 915
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_MacroVariation.uasset" 916
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_MacroVariation.uexp" 917
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Copper.uasset" 918
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Copper.uexp" 919
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" 920
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Aluminum_D.uexp" 921
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Aluminum_D.ubulk" 922
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" 923
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uexp" 924
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 925
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uexp" 926
-"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" 927
-"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Minimal_Default_BuiltData.uexp" 928
-"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Minimal_Default_BuiltData.ubulk" 929
-"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/Floor_400x400.uasset" 930
-"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/Floor_400x400.uexp" 931
-"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Starter_Background_Cue.uasset" 932
-"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Starter_Background_Cue.uexp" 933
-"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Minimal_Default.uexp" 934
-"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Minimal_Default.umap" 935
-"C:/Research/Experiment 4.27/Content/StarterContent/Shapes/Shape_Sphere.uasset" 936
-"C:/Research/Experiment 4.27/Content/StarterContent/Shapes/Shape_Sphere.uexp" 937
-"C:/Research/Experiment 4.27/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" 938
-"C:/Research/Experiment 4.27/Content/StarterContent/Shapes/Shape_QuadPyramid.uexp" 939
-"C:/Research/Experiment 4.27/Content/StarterContent/Shapes/Shape_Cube.uasset" 940
-"C:/Research/Experiment 4.27/Content/StarterContent/Shapes/Shape_Cube.uexp" 941
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Frame_N.uasset" 942
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Frame_N.uexp" 943
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Frame_N.ubulk" 944
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Frame_M.uasset" 945
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Frame_M.uexp" 946
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Frame_M.ubulk" 947
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_Frame.uasset" 948
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_Frame.uexp" 949
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_WindowFrame.uasset" 950
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_WindowFrame.uexp" 951
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_PillarFrame300.uasset" 952
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_PillarFrame300.uexp" 953
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_PillarFrame.uasset" 954
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_PillarFrame.uexp" 955
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_GlassWindow.uasset" 956
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_GlassWindow.uexp" 957
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_DoorFrame.uasset" 958
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_DoorFrame.uexp" 959
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_CornerFrame.uasset" 960
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_CornerFrame.uexp" 961
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/MaterialSphere.uasset" 962
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/MaterialSphere.uexp" 963
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" 964
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Dust_Particle_D.uexp" 965
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Dust_Particle_D.ubulk" 966
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" 967
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Dust_Particle.uexp" 968
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Ambient_Dust.uasset" 969
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Ambient_Dust.uexp" 970
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" 971
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Walnut_N.uexp" 972
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Walnut_N.ubulk" 973
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" 974
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Walnut_D.uexp" 975
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Walnut_D.ubulk" 976
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Walnut.uasset" 977
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Walnut.uexp" 978
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" 979
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Pine_N.uexp" 980
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Pine_N.ubulk" 981
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" 982
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Pine_D.uexp" 983
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Pine_D.ubulk" 984
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 985
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Perlin_Noise_M.uexp" 986
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Perlin_Noise_M.ubulk" 987
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Pine.uasset" 988
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Pine.uexp" 989
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset" 990
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uexp" 991
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 992
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uexp" 993
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.ubulk" 994
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 995
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uexp" 996
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.ubulk" 997
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 998
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uexp" 999
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.ubulk" 1000
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 1001
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uexp" 1002
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 1003
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uexp" 1004
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Water_M.uasset" 1005
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Water_M.uexp" 1006
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Water_M.ubulk" 1007
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Water_N.uasset" 1008
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Water_N.uexp" 1009
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Water_N.ubulk" 1010
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Water_Ocean.uasset" 1011
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Water_Ocean.uexp" 1012
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Water_Lake.uasset" 1013
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Water_Lake.uexp" 1014
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" 1015
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Panel_N.uexp" 1016
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Panel_N.ubulk" 1017
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" 1018
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Panel_M.uexp" 1019
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Panel_M.ubulk" 1020
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" 1021
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Steel_D.uexp" 1022
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Steel_D.ubulk" 1023
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Tech_Panel.uasset" 1024
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Tech_Panel.uexp" 1025
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 1026
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uexp" 1027
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.ubulk" 1028
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 1029
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uexp" 1030
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.ubulk" 1031
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 1032
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uexp" 1033
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" 1034
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Tech_Hex_Tile.uexp" 1035
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" 1036
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Dot_N.uexp" 1037
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Dot_N.ubulk" 1038
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" 1039
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Dot_M.uexp" 1040
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Dot_M.ubulk" 1041
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Single_Tile_N.uasset" 1042
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Single_Tile_N.uexp" 1043
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Single_Tile_N.ubulk" 1044
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" 1045
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Checker_Noise_M.uexp" 1046
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Checker_Noise_M.ubulk" 1047
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" 1048
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Tech_Checker_Dot.uexp" 1049
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" 1050
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Slate_N.uexp" 1051
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Slate_N.ubulk" 1052
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" 1053
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Slate_D.uexp" 1054
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Slate_D.ubulk" 1055
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Rock_Slate.uasset" 1056
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Rock_Slate.uexp" 1057
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" 1058
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Sandstone_N.uexp" 1059
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Sandstone_N.ubulk" 1060
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" 1061
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Sandstone_D.uexp" 1062
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Sandstone_D.ubulk" 1063
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" 1064
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Rock_Sandstone.uexp" 1065
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 1066
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uexp" 1067
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.ubulk" 1068
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" 1069
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Rock_Marble_Polished.uexp" 1070
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" 1071
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Basalt_N.uexp" 1072
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Basalt_N.ubulk" 1073
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Rock_Basalt.uasset" 1074
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Rock_Basalt.uexp" 1075
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" 1076
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Steel_N.uexp" 1077
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Steel_N.ubulk" 1078
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Steel.uasset" 1079
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Steel.uexp" 1080
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 1081
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Rust_D.uexp" 1082
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Rust_D.ubulk" 1083
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 1084
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Rust_N.uexp" 1085
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Rust_N.ubulk" 1086
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Rust.uasset" 1087
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Rust.uexp" 1088
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" 1089
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Gold_D.uexp" 1090
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Gold_D.ubulk" 1091
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Gold.uasset" 1092
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Gold.uexp" 1093
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Chrome.uasset" 1094
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Chrome.uexp" 1095
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" 1096
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Moss_N.uexp" 1097
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Moss_N.ubulk" 1098
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_ground_Moss_D.uasset" 1099
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_ground_Moss_D.uexp" 1100
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_ground_Moss_D.ubulk" 1101
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Ground_Moss.uasset" 1102
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Ground_Moss.uexp" 1103
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" 1104
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Gravel_N.uexp" 1105
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Gravel_N.ubulk" 1106
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" 1107
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Gravel_D.uexp" 1108
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Gravel_D.ubulk" 1109
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Ground_Gravel.uasset" 1110
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Ground_Gravel.uexp" 1111
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" 1112
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Grass_N.uexp" 1113
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Grass_N.ubulk" 1114
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" 1115
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Grass_D.uexp" 1116
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Grass_D.ubulk" 1117
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Ground_Grass.uasset" 1118
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Ground_Grass.uexp" 1119
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 1120
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uexp" 1121
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.ubulk" 1122
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" 1123
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_N.uexp" 1124
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_N.ubulk" 1125
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" 1126
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_M.uexp" 1127
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_M.ubulk" 1128
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" 1129
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_D.uexp" 1130
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_D.ubulk" 1131
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" 1132
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Concrete_Tiles.uexp" 1133
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" 1134
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Panels_N.uexp" 1135
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Panels_N.ubulk" 1136
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" 1137
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Panels_D.uexp" 1138
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Panels_D.ubulk" 1139
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Concrete_Panels.uasset" 1140
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Concrete_Panels.uexp" 1141
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 1142
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Grime_D.uexp" 1143
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Grime_D.ubulk" 1144
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 1145
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Concrete_Grime.uexp" 1146
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 1147
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uexp" 1148
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.ubulk" 1149
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 1150
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uexp" 1151
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.ubulk" 1152
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 1153
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uexp" 1154
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.ubulk" 1155
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 1156
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uexp" 1157
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.ubulk" 1158
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Gradinet_01.uasset" 1159
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Gradinet_01.uexp" 1160
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Gradinet_01.ubulk" 1161
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" 1162
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_CobbleStone_Smooth.uexp" 1163
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" 1164
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uexp" 1165
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Rough_N.ubulk" 1166
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" 1167
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uexp" 1168
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Rough_D.ubulk" 1169
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" 1170
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_CobbleStone_Rough.uexp" 1171
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 1172
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uexp" 1173
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.ubulk" 1174
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 1175
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uexp" 1176
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.ubulk" 1177
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 1178
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uexp" 1179
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.ubulk" 1180
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" 1181
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_CobbleStone_Pebble.uexp" 1182
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" 1183
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ceramic_Tile_N.uexp" 1184
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ceramic_Tile_N.ubulk" 1185
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" 1186
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ceramic_Tile_M.uexp" 1187
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ceramic_Tile_M.ubulk" 1188
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 1189
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uexp" 1190
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 1191
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uexp" 1192
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.ubulk" 1193
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 1194
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uexp" 1195
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.ubulk" 1196
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 1197
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uexp" 1198
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.ubulk" 1199
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" 1200
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uexp" 1201
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 1202
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uexp" 1203
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.ubulk" 1204
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 1205
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uexp" 1206
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.ubulk" 1207
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" 1208
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Cut_Stone.uexp" 1209
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" 1210
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uexp" 1211
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Old_N.ubulk" 1212
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" 1213
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uexp" 1214
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Old_D.ubulk" 1215
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" 1216
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Clay_Old.uexp" 1217
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" 1218
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_New_N.uexp" 1219
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" 1220
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_New_M.uexp" 1221
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" 1222
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_New_D.uexp" 1223
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_New_D.ubulk" 1224
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" 1225
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Clay_New.uexp" 1226
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 1227
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uexp" 1228
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.ubulk" 1229
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 1230
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uexp" 1231
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.ubulk" 1232
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 1233
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uexp" 1234
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.ubulk" 1235
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" 1236
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uexp" 1237
-"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset" 1238
-"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uexp" 1239
-"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset" 1240
-"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uexp" 1241
-"C:/Research/Experiment 4.27/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" 1242
-"C:/Research/Experiment 4.27/Content/StarterContent/Maps/StarterMap_BuiltData.uexp" 1243
-"C:/Research/Experiment 4.27/Content/StarterContent/Maps/StarterMap_BuiltData.ubulk" 1244
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" 1245
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Poured_N.uexp" 1246
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Poured_N.ubulk" 1247
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" 1248
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Poured_D.uexp" 1249
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Poured_D.ubulk" 1250
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Concrete_Poured.uasset" 1251
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Concrete_Poured.uexp" 1252
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 1253
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Oak_N.uexp" 1254
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Oak_N.ubulk" 1255
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 1256
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Oak_D.uexp" 1257
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Oak_D.ubulk" 1258
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Oak.uasset" 1259
-"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Oak.uexp" 1260
-"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/Wall_400x200.uasset" 1261
-"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/Wall_400x200.uexp" 1262
-"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" 1263
-"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/Wall_Door_400x300.uexp" 1264
-"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" 1265
-"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/Wall_Window_400x300.uexp" 1266
-"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Collapse_Cue.uasset" 1267
-"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Collapse_Cue.uexp" 1268
-"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Starter_Music_Cue.uasset" 1269
-"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Starter_Music_Cue.uexp" 1270
-"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Fire01_Cue.uasset" 1271
-"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Fire01_Cue.uexp" 1272
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 1273
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uexp" 1274
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 1275
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uexp" 1276
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 1277
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Fire_Tiled_D.uexp" 1278
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Fire_Tiled_D.ubulk" 1279
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 1280
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Fire_SubUV.uexp" 1281
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Fire_SubUV.ubulk" 1282
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 1283
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uexp" 1284
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Fire.uasset" 1285
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Fire.uexp" 1286
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 1287
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uexp" 1288
-"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Smoke01_Cue.uasset" 1289
-"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Smoke01_Cue.uexp" 1290
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Smoke.uasset" 1291
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Smoke.uexp" 1292
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 1293
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uexp" 1294
-"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Steam01_Cue.uasset" 1295
-"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Steam01_Cue.uexp" 1296
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Steam_Lit.uasset" 1297
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Steam_Lit.uexp" 1298
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" 1299
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uexp" 1300
-"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" 1301
-"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Fire_Sparks01_Cue.uexp" 1302
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Spark_Core.uasset" 1303
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Spark_Core.uexp" 1304
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Spark_Core.ubulk" 1305
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Spark.uasset" 1306
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Spark.uexp" 1307
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Sparks.uasset" 1308
-"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Sparks.uexp" 1309
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 1310
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uexp" 1311
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Lamp_N.uasset" 1312
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Lamp_N.uexp" 1313
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Lamp_N.ubulk" 1314
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Lamp_M.uasset" 1315
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Lamp_M.uexp" 1316
-"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Lamp_M.ubulk" 1317
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_Lamp.uasset" 1318
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_Lamp.uexp" 1319
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" 1320
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Lamp_Ceiling.uexp" 1321
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" 1322
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uexp" 1323
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Lamp_Wall.uasset" 1324
-"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Lamp_Wall.uexp" 1325
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" 1326
-"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_WallSconce.uexp" 1327
-"C:/Research/Experiment 4.27/Content/StarterContent/Maps/StarterMap.uexp" 1328
-"C:/Research/Experiment 4.27/Content/StarterContent/Maps/StarterMap.umap" 1329
-"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset" 1330
-"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uexp" 1331
-"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.ubulk" 1332
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/scream.uasset" 1333
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/scream.uexp" 1334
-"../../../Engine/Content/BasicShapes/Cube.uasset" 1335
-"../../../Engine/Content/BasicShapes/Cube.uexp" 1336
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/OcclusionBody.uasset" 1337
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/OcclusionBody.uexp" 1338
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Door.uasset" 1339
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Door.uexp" 1340
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/StartPort.uasset" 1341
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/StartPort.uexp" 1342
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/EndPort.uasset" 1343
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/EndPort.uexp" 1344
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/VR_EXP.uasset" 1345
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/VR_EXP.uexp" 1346
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/CloseDoorTrigger.uasset" 1347
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/CloseDoorTrigger.uexp" 1348
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/SpatialAttenuation.uasset" 1349
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/SpatialAttenuation.uexp" 1350
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/step.uasset" 1351
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/step.uexp" 1352
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Slow.uasset" 1353
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Slow.uexp" 1354
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/fast_footsteps.uasset" 1355
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/fast_footsteps.uexp" 1356
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Fast.uasset" 1357
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Fast.uexp" 1358
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Experiment.uasset" 1359
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Experiment.uexp" 1360
-"../../../Engine/Content/BasicShapes/Sphere.uasset" 1361
-"../../../Engine/Content/BasicShapes/Sphere.uexp" 1362
-"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 1363
-"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uexp" 1364
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Predator_Blueprint1.uasset" 1365
-"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Predator_Blueprint1.uexp" 1366
-"C:/Research/Experiment 4.27/Content/Walls.uasset" 1367
-"C:/Research/Experiment 4.27/Content/Walls.uexp" 1368
-"C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_Fire.uasset" 1369
-"C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_Fire.uexp" 1370
-"C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPersonFire_Montage.uasset" 1371
-"C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPersonFire_Montage.uexp" 1372
-"C:/Research/Experiment 4.27/Content/FirstPerson/Meshes/FirstPersonProjectileMaterial.uasset" 1373
-"C:/Research/Experiment 4.27/Content/FirstPerson/Meshes/FirstPersonProjectileMaterial.uexp" 1374
-"C:/Research/Experiment 4.27/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset" 1375
-"C:/Research/Experiment 4.27/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uexp" 1376
-"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset" 1377
-"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uexp" 1378
-"C:/Research/Experiment 4.27/Content/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uasset" 1379
-"C:/Research/Experiment 4.27/Content/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uexp" 1380
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 1381
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uexp" 1382
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.ubulk" 1383
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 1384
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uexp" 1385
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.ubulk" 1386
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 1387
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uexp" 1388
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 1389
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uexp" 1390
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 1391
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uexp" 1392
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 1393
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uexp" 1394
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.ubulk" 1395
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 1396
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uexp" 1397
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.ubulk" 1398
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 1399
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uexp" 1400
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset" 1401
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uexp" 1402
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.ubulk" 1403
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 1404
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uexp" 1405
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.ubulk" 1406
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/M_UE4Man_Body.uasset" 1407
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/M_UE4Man_Body.uexp" 1408
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset" 1409
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uexp" 1410
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset" 1411
-"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uexp" 1412
-"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset" 1413
-"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uexp" 1414
-"C:/Research/Experiment 4.27/Content/Geometry/Meshes/1M_Cube.uasset" 1415
-"C:/Research/Experiment 4.27/Content/Geometry/Meshes/1M_Cube.uexp" 1416
-"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.uexp" 1417
-"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" 1418
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 1419
-"../../../Engine/Content/Maps/Entry_BuiltData.uexp" 1420
-"../../../Engine/Content/Maps/Entry.uexp" 1421
-"../../../Engine/Content/Maps/Entry.umap" 1422
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 777
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uexp" 778
+"../../../Engine/Content/EngineSky/T_Sky_Blue.ubulk" 779
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 780
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uexp" 781
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.ubulk" 782
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 783
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uexp" 784
+"../../../Engine/Content/EngineSky/T_Sky_Stars.ubulk" 785
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 786
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uexp" 787
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 788
+"../../../Engine/Content/EngineSky/SM_SkySphere.uexp" 789
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 790
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uexp" 791
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 792
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uexp" 793
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 794
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uexp" 795
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 796
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uexp" 797
+"C:/Research/Experiment 4.27/Content/Spooky_Ghost/Ghost_BuiltData.uasset" 798
+"C:/Research/Experiment 4.27/Content/Spooky_Ghost/Ghost_BuiltData.uexp" 799
+"C:/Research/Experiment 4.27/Content/Spooky_Ghost/Ghost_BuiltData.ubulk" 800
+"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 801
+"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uexp" 802
+"C:/Research/Experiment 4.27/Content/Spooky_Ghost/Ghost.uexp" 803
+"C:/Research/Experiment 4.27/Content/Spooky_Ghost/Ghost.umap" 804
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 805
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uexp" 806
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uasset" 807
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uexp" 808
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.ubulk" 809
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 810
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uexp" 811
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 812
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uexp" 813
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 814
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uexp" 815
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 816
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uexp" 817
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 818
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uexp" 819
+"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" 820
+"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uexp" 821
+"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.ubulk" 822
+"C:/Research/Experiment 4.27/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 823
+"C:/Research/Experiment 4.27/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uexp" 824
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_AssetPlatform.uasset" 825
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_AssetPlatform.uexp" 826
+"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" 827
+"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/SM_AssetPlatform.uexp" 828
+"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 829
+"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uexp" 830
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" 831
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uexp" 832
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" 833
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uexp" 834
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" 835
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/SM_Arrows.uexp" 836
+"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset" 837
+"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uexp" 838
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/Skybox.uasset" 839
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/Skybox.uexp" 840
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" 841
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uexp" 842
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" 843
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uexp" 844
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" 845
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uexp" 846
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" 847
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uexp" 848
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/BP_LightStudio.uasset" 849
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/BP_LightStudio.uexp" 850
+"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Advanced_Lighting.uexp" 851
+"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Advanced_Lighting.umap" 852
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_TableRound_N.uasset" 853
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_TableRound_N.uexp" 854
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_TableRound_N.ubulk" 855
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_TableRound_M.uasset" 856
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_TableRound_M.uexp" 857
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_TableRound_M.ubulk" 858
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_TableRound.uasset" 859
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_TableRound.uexp" 860
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_TableRound.uasset" 861
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_TableRound.uexp" 862
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Statue_N.uasset" 863
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Statue_N.uexp" 864
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Statue_N.ubulk" 865
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Statue_M.uasset" 866
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Statue_M.uexp" 867
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Statue_M.ubulk" 868
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_Statue.uasset" 869
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_Statue.uexp" 870
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" 871
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_StatueGlass.uexp" 872
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Statue.uasset" 873
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Statue.uexp" 874
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Chair.uasset" 875
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Chair.uexp" 876
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" 877
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Copper_D.uexp" 878
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Copper_D.ubulk" 879
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" 880
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Gold_N.uexp" 881
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Gold_N.ubulk" 882
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_MacroVariation.uasset" 883
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_MacroVariation.uexp" 884
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Copper.uasset" 885
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Copper.uexp" 886
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" 887
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Aluminum_D.uexp" 888
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Aluminum_D.ubulk" 889
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" 890
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uexp" 891
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 892
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uexp" 893
+"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" 894
+"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Minimal_Default_BuiltData.uexp" 895
+"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Minimal_Default_BuiltData.ubulk" 896
+"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/Floor_400x400.uasset" 897
+"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/Floor_400x400.uexp" 898
+"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Starter_Background_Cue.uasset" 899
+"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Starter_Background_Cue.uexp" 900
+"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Minimal_Default.uexp" 901
+"C:/Research/Experiment 4.27/Content/StarterContent/Maps/Minimal_Default.umap" 902
+"C:/Research/Experiment 4.27/Content/StarterContent/Shapes/Shape_Sphere.uasset" 903
+"C:/Research/Experiment 4.27/Content/StarterContent/Shapes/Shape_Sphere.uexp" 904
+"C:/Research/Experiment 4.27/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" 905
+"C:/Research/Experiment 4.27/Content/StarterContent/Shapes/Shape_QuadPyramid.uexp" 906
+"C:/Research/Experiment 4.27/Content/StarterContent/Shapes/Shape_Cube.uasset" 907
+"C:/Research/Experiment 4.27/Content/StarterContent/Shapes/Shape_Cube.uexp" 908
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Frame_N.uasset" 909
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Frame_N.uexp" 910
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Frame_N.ubulk" 911
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Frame_M.uasset" 912
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Frame_M.uexp" 913
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Frame_M.ubulk" 914
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_Frame.uasset" 915
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_Frame.uexp" 916
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_WindowFrame.uasset" 917
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_WindowFrame.uexp" 918
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_PillarFrame300.uasset" 919
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_PillarFrame300.uexp" 920
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_PillarFrame.uasset" 921
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_PillarFrame.uexp" 922
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_GlassWindow.uasset" 923
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_GlassWindow.uexp" 924
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_DoorFrame.uasset" 925
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_DoorFrame.uexp" 926
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_CornerFrame.uasset" 927
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_CornerFrame.uexp" 928
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/MaterialSphere.uasset" 929
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/MaterialSphere.uexp" 930
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" 931
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Dust_Particle_D.uexp" 932
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Dust_Particle_D.ubulk" 933
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" 934
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Dust_Particle.uexp" 935
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Ambient_Dust.uasset" 936
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Ambient_Dust.uexp" 937
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" 938
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Walnut_N.uexp" 939
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Walnut_N.ubulk" 940
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" 941
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Walnut_D.uexp" 942
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Walnut_D.ubulk" 943
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Walnut.uasset" 944
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Walnut.uexp" 945
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" 946
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Pine_N.uexp" 947
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Pine_N.ubulk" 948
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" 949
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Pine_D.uexp" 950
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Pine_D.ubulk" 951
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 952
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Perlin_Noise_M.uexp" 953
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Perlin_Noise_M.ubulk" 954
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Pine.uasset" 955
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Pine.uexp" 956
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset" 957
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uexp" 958
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 959
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uexp" 960
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.ubulk" 961
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 962
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uexp" 963
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.ubulk" 964
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 965
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uexp" 966
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.ubulk" 967
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 968
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uexp" 969
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 970
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uexp" 971
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Water_M.uasset" 972
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Water_M.uexp" 973
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Water_M.ubulk" 974
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Water_N.uasset" 975
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Water_N.uexp" 976
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Water_N.ubulk" 977
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Water_Ocean.uasset" 978
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Water_Ocean.uexp" 979
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Water_Lake.uasset" 980
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Water_Lake.uexp" 981
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" 982
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Panel_N.uexp" 983
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Panel_N.ubulk" 984
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" 985
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Panel_M.uexp" 986
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Panel_M.ubulk" 987
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" 988
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Steel_D.uexp" 989
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Steel_D.ubulk" 990
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Tech_Panel.uasset" 991
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Tech_Panel.uexp" 992
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 993
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uexp" 994
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.ubulk" 995
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 996
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uexp" 997
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.ubulk" 998
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 999
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uexp" 1000
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" 1001
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Tech_Hex_Tile.uexp" 1002
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" 1003
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Dot_N.uexp" 1004
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Dot_N.ubulk" 1005
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" 1006
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Dot_M.uexp" 1007
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Tech_Dot_M.ubulk" 1008
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Single_Tile_N.uasset" 1009
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Single_Tile_N.uexp" 1010
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Single_Tile_N.ubulk" 1011
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" 1012
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Checker_Noise_M.uexp" 1013
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Checker_Noise_M.ubulk" 1014
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" 1015
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Tech_Checker_Dot.uexp" 1016
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" 1017
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Slate_N.uexp" 1018
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Slate_N.ubulk" 1019
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" 1020
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Slate_D.uexp" 1021
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Slate_D.ubulk" 1022
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Rock_Slate.uasset" 1023
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Rock_Slate.uexp" 1024
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" 1025
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Sandstone_N.uexp" 1026
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Sandstone_N.ubulk" 1027
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" 1028
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Sandstone_D.uexp" 1029
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Sandstone_D.ubulk" 1030
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" 1031
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Rock_Sandstone.uexp" 1032
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 1033
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uexp" 1034
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.ubulk" 1035
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" 1036
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Rock_Marble_Polished.uexp" 1037
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" 1038
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Basalt_N.uexp" 1039
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Basalt_N.ubulk" 1040
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Rock_Basalt.uasset" 1041
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Rock_Basalt.uexp" 1042
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" 1043
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Steel_N.uexp" 1044
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Steel_N.ubulk" 1045
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Steel.uasset" 1046
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Steel.uexp" 1047
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 1048
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Rust_D.uexp" 1049
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Rust_D.ubulk" 1050
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 1051
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Rust_N.uexp" 1052
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Rust_N.ubulk" 1053
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Rust.uasset" 1054
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Rust.uexp" 1055
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" 1056
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Gold_D.uexp" 1057
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Metal_Gold_D.ubulk" 1058
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Gold.uasset" 1059
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Gold.uexp" 1060
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Chrome.uasset" 1061
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Metal_Chrome.uexp" 1062
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" 1063
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Moss_N.uexp" 1064
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Moss_N.ubulk" 1065
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_ground_Moss_D.uasset" 1066
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_ground_Moss_D.uexp" 1067
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_ground_Moss_D.ubulk" 1068
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Ground_Moss.uasset" 1069
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Ground_Moss.uexp" 1070
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" 1071
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Gravel_N.uexp" 1072
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Gravel_N.ubulk" 1073
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" 1074
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Gravel_D.uexp" 1075
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Gravel_D.ubulk" 1076
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Ground_Gravel.uasset" 1077
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Ground_Gravel.uexp" 1078
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" 1079
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Grass_N.uexp" 1080
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Grass_N.ubulk" 1081
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" 1082
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Grass_D.uexp" 1083
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ground_Grass_D.ubulk" 1084
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Ground_Grass.uasset" 1085
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Ground_Grass.uexp" 1086
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 1087
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uexp" 1088
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.ubulk" 1089
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" 1090
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_N.uexp" 1091
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_N.ubulk" 1092
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" 1093
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_M.uexp" 1094
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_M.ubulk" 1095
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" 1096
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_D.uexp" 1097
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Tiles_D.ubulk" 1098
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" 1099
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Concrete_Tiles.uexp" 1100
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" 1101
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Panels_N.uexp" 1102
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Panels_N.ubulk" 1103
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" 1104
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Panels_D.uexp" 1105
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Panels_D.ubulk" 1106
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Concrete_Panels.uasset" 1107
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Concrete_Panels.uexp" 1108
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 1109
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Grime_D.uexp" 1110
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Grime_D.ubulk" 1111
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 1112
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Concrete_Grime.uexp" 1113
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 1114
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uexp" 1115
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.ubulk" 1116
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 1117
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uexp" 1118
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.ubulk" 1119
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 1120
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uexp" 1121
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.ubulk" 1122
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 1123
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uexp" 1124
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.ubulk" 1125
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Gradinet_01.uasset" 1126
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Gradinet_01.uexp" 1127
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Gradinet_01.ubulk" 1128
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" 1129
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_CobbleStone_Smooth.uexp" 1130
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" 1131
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uexp" 1132
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Rough_N.ubulk" 1133
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" 1134
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uexp" 1135
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Rough_D.ubulk" 1136
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" 1137
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_CobbleStone_Rough.uexp" 1138
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 1139
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uexp" 1140
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.ubulk" 1141
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 1142
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uexp" 1143
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.ubulk" 1144
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 1145
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uexp" 1146
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.ubulk" 1147
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" 1148
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_CobbleStone_Pebble.uexp" 1149
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" 1150
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ceramic_Tile_N.uexp" 1151
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ceramic_Tile_N.ubulk" 1152
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" 1153
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ceramic_Tile_M.uexp" 1154
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Ceramic_Tile_M.ubulk" 1155
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 1156
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uexp" 1157
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 1158
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uexp" 1159
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.ubulk" 1160
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 1161
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uexp" 1162
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.ubulk" 1163
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 1164
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uexp" 1165
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.ubulk" 1166
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" 1167
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uexp" 1168
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 1169
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uexp" 1170
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.ubulk" 1171
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 1172
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uexp" 1173
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.ubulk" 1174
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" 1175
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Cut_Stone.uexp" 1176
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" 1177
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uexp" 1178
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Old_N.ubulk" 1179
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" 1180
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uexp" 1181
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Old_D.ubulk" 1182
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" 1183
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Clay_Old.uexp" 1184
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" 1185
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_New_N.uexp" 1186
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" 1187
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_New_M.uexp" 1188
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" 1189
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_New_D.uexp" 1190
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_New_D.ubulk" 1191
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" 1192
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Clay_New.uexp" 1193
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 1194
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uexp" 1195
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.ubulk" 1196
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 1197
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uexp" 1198
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.ubulk" 1199
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 1200
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uexp" 1201
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.ubulk" 1202
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" 1203
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uexp" 1204
+"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset" 1205
+"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uexp" 1206
+"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset" 1207
+"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uexp" 1208
+"C:/Research/Experiment 4.27/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" 1209
+"C:/Research/Experiment 4.27/Content/StarterContent/Maps/StarterMap_BuiltData.uexp" 1210
+"C:/Research/Experiment 4.27/Content/StarterContent/Maps/StarterMap_BuiltData.ubulk" 1211
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" 1212
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Poured_N.uexp" 1213
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Poured_N.ubulk" 1214
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" 1215
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Poured_D.uexp" 1216
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Concrete_Poured_D.ubulk" 1217
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Concrete_Poured.uasset" 1218
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Concrete_Poured.uexp" 1219
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 1220
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Oak_N.uexp" 1221
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Oak_N.ubulk" 1222
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 1223
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Oak_D.uexp" 1224
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Wood_Oak_D.ubulk" 1225
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Oak.uasset" 1226
+"C:/Research/Experiment 4.27/Content/StarterContent/Materials/M_Wood_Oak.uexp" 1227
+"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/Wall_400x200.uasset" 1228
+"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/Wall_400x200.uexp" 1229
+"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" 1230
+"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/Wall_Door_400x300.uexp" 1231
+"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" 1232
+"C:/Research/Experiment 4.27/Content/StarterContent/Architecture/Wall_Window_400x300.uexp" 1233
+"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Collapse_Cue.uasset" 1234
+"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Collapse_Cue.uexp" 1235
+"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Starter_Music_Cue.uasset" 1236
+"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Starter_Music_Cue.uexp" 1237
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Lamp_N.uasset" 1238
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Lamp_N.uexp" 1239
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Lamp_N.ubulk" 1240
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Lamp_M.uasset" 1241
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Lamp_M.uexp" 1242
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Lamp_M.ubulk" 1243
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_Lamp.uasset" 1244
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/Materials/M_Lamp.uexp" 1245
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" 1246
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Lamp_Ceiling.uexp" 1247
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" 1248
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uexp" 1249
+"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Fire01_Cue.uasset" 1250
+"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Fire01_Cue.uexp" 1251
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 1252
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Fire_Tiled_D.uexp" 1253
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Fire_Tiled_D.ubulk" 1254
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 1255
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Fire_SubUV.uexp" 1256
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Fire_SubUV.ubulk" 1257
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 1258
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uexp" 1259
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 1260
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uexp" 1261
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 1262
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uexp" 1263
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Fire.uasset" 1264
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Fire.uexp" 1265
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 1266
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uexp" 1267
+"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Smoke01_Cue.uasset" 1268
+"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Smoke01_Cue.uexp" 1269
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Smoke.uasset" 1270
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Smoke.uexp" 1271
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 1272
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uexp" 1273
+"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" 1274
+"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Fire_Sparks01_Cue.uexp" 1275
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Spark_Core.uasset" 1276
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Spark_Core.uexp" 1277
+"C:/Research/Experiment 4.27/Content/StarterContent/Textures/T_Spark_Core.ubulk" 1278
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Spark.uasset" 1279
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/Materials/M_Spark.uexp" 1280
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Sparks.uasset" 1281
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Sparks.uexp" 1282
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 1283
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uexp" 1284
+"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Steam01_Cue.uasset" 1285
+"C:/Research/Experiment 4.27/Content/StarterContent/Audio/Steam01_Cue.uexp" 1286
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Steam_Lit.uasset" 1287
+"C:/Research/Experiment 4.27/Content/StarterContent/Particles/P_Steam_Lit.uexp" 1288
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" 1289
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uexp" 1290
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Lamp_Wall.uasset" 1291
+"C:/Research/Experiment 4.27/Content/StarterContent/Props/SM_Lamp_Wall.uexp" 1292
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" 1293
+"C:/Research/Experiment 4.27/Content/StarterContent/Blueprints/Blueprint_WallSconce.uexp" 1294
+"C:/Research/Experiment 4.27/Content/StarterContent/Maps/StarterMap.uexp" 1295
+"C:/Research/Experiment 4.27/Content/StarterContent/Maps/StarterMap.umap" 1296
+"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset" 1297
+"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uexp" 1298
+"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.ubulk" 1299
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/scream.uasset" 1300
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/scream.uexp" 1301
+"../../../Engine/Content/BasicShapes/Cube.uasset" 1302
+"../../../Engine/Content/BasicShapes/Cube.uexp" 1303
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/OcclusionBody.uasset" 1304
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/OcclusionBody.uexp" 1305
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Door.uasset" 1306
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Door.uexp" 1307
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/StartPort.uasset" 1308
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/StartPort.uexp" 1309
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/EndPort.uasset" 1310
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/EndPort.uexp" 1311
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/VR_EXP.uasset" 1312
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/VR_EXP.uexp" 1313
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/CloseDoorTrigger.uasset" 1314
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/CloseDoorTrigger.uexp" 1315
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/SpatialAttenuation.uasset" 1316
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/SpatialAttenuation.uexp" 1317
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/step.uasset" 1318
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/step.uexp" 1319
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Slow.uasset" 1320
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Slow.uexp" 1321
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/fast_footsteps.uasset" 1322
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/fast_footsteps.uexp" 1323
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Fast.uasset" 1324
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Fast.uexp" 1325
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Experiment.uasset" 1326
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Experiment.uexp" 1327
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 1328
+"../../../Engine/Content/BasicShapes/Sphere.uexp" 1329
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 1330
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uexp" 1331
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Predator_Blueprint1.uasset" 1332
+"C:/Research/Experiment 4.27/Plugins/ExperimentPlugin/Content/Predator_Blueprint1.uexp" 1333
+"C:/Research/Experiment 4.27/Content/Walls.uasset" 1334
+"C:/Research/Experiment 4.27/Content/Walls.uexp" 1335
+"C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_Fire.uasset" 1336
+"C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPerson_Fire.uexp" 1337
+"C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPersonFire_Montage.uasset" 1338
+"C:/Research/Experiment 4.27/Content/FirstPerson/Animations/FirstPersonFire_Montage.uexp" 1339
+"C:/Research/Experiment 4.27/Content/FirstPerson/Meshes/FirstPersonProjectileMaterial.uasset" 1340
+"C:/Research/Experiment 4.27/Content/FirstPerson/Meshes/FirstPersonProjectileMaterial.uexp" 1341
+"C:/Research/Experiment 4.27/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset" 1342
+"C:/Research/Experiment 4.27/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uexp" 1343
+"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset" 1344
+"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uexp" 1345
+"C:/Research/Experiment 4.27/Content/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uasset" 1346
+"C:/Research/Experiment 4.27/Content/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uexp" 1347
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 1348
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uexp" 1349
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.ubulk" 1350
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 1351
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uexp" 1352
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.ubulk" 1353
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 1354
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uexp" 1355
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 1356
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uexp" 1357
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 1358
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uexp" 1359
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 1360
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uexp" 1361
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.ubulk" 1362
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 1363
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uexp" 1364
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.ubulk" 1365
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 1366
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uexp" 1367
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset" 1368
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uexp" 1369
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.ubulk" 1370
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 1371
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uexp" 1372
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.ubulk" 1373
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/M_UE4Man_Body.uasset" 1374
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Materials/M_UE4Man_Body.uexp" 1375
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset" 1376
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uexp" 1377
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset" 1378
+"C:/Research/Experiment 4.27/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uexp" 1379
+"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset" 1380
+"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uexp" 1381
+"C:/Research/Experiment 4.27/Content/Geometry/Meshes/1M_Cube.uasset" 1382
+"C:/Research/Experiment 4.27/Content/Geometry/Meshes/1M_Cube.uexp" 1383
+"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.uexp" 1384
+"C:/Research/Experiment 4.27/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" 1385
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 1386
+"../../../Engine/Content/Maps/Entry_BuiltData.uexp" 1387
+"../../../Engine/Content/Maps/Entry.uexp" 1388
+"../../../Engine/Content/Maps/Entry.umap" 1389
