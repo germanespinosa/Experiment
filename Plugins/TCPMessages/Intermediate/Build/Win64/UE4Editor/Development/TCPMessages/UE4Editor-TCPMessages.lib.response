@@ -6,8 +6,8 @@
 /NAME:"UE4Editor-TCPMessages.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Research\Experiment 4.27\Intermediate\Build\Win64\ExperimentEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"C:\Research\Experiment 4.27\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\Module.TCPMessages.cpp.obj"
-"C:\Research\Experiment 4.27\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\Module.TCPMessages.gen.cpp.obj"
-"C:\Research\Experiment 4.27\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\Default.rc2.res"
-/OUT:"C:\Research\Experiment 4.27\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\UE4Editor-TCPMessages.lib"
+"C:\Research\Intermediate\Build\Win64\ExperimentEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Research\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\Module.TCPMessages.cpp.obj"
+"C:\Research\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\Module.TCPMessages.gen.cpp.obj"
+"C:\Research\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\Default.rc2.res"
+/OUT:"C:\Research\Plugins\TCPMessages\Intermediate\Build\Win64\UE4Editor\Development\TCPMessages\UE4Editor-TCPMessages.lib"

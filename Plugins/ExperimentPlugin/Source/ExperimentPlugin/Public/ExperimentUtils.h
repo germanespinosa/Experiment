@@ -1,5 +1,6 @@
 #pragma once
 #include "Structs.h"
+#include "Kismet/KismetMathLibrary.h"
 #include "ExperimentUtils.generated.h"
 
 
@@ -91,5 +92,17 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = Experiment)
 		static FString UpdateGhostMovementMessageToJsonString(FUpdateGhostMovementMessage structInput);
+
+	UFUNCTION(BlueprintCallable, Category = Experiment)
+		static FLocation vrToCanonical(FVector vrCoordinates, float mapLength);
+	
+	UFUNCTION(BlueprintCallable, Category = Experiment)
+		static FVector canonicalToVr(FLocation canonicalCoordinates, float mapLength);
+
+	UFUNCTION(BlueprintCallable, Category = Experiment)
+		static int updateFrame(int Frame);
+
+	UFUNCTION(BlueprintCallable, Category = Experiment)
+		static float updateTimeStamp(FDateTime episodeStart);
 
 };

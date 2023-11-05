@@ -167,3 +167,33 @@ FString UExperimentUtils::UpdateGhostMovementMessageToJsonString(FUpdateGhostMov
 	FJsonObjectConverter::UStructToJsonObjectString(structInput, jsonString, 0, 0, 0);
 	return jsonString;
 }
+
+FLocation UExperimentUtils::vrToCanonical(FVector vrCoordinates, float mapLength) {
+	FLocation canonical;
+	float halfMap = 0.5 * mapLength;
+	canonical.x = ( vrCoordinates.X + halfMap )  / mapLength;
+	canonical.y = ( halfMap - vrCoordinates.Y  ) / mapLength;
+	return canonical;
+}
+
+FVector UExperimentUtils::canonicalToVr(FLocation canonicalCoordinates, float mapLength) {
+	FVector vr;
+	float halfMap = 0.5 * mapLength;
+	vr.X = ( mapLength * canonicalCoordinates.x ) -  halfMap;
+	vr.Y = halfMap - ( canonicalCoordinates.y * mapLength);
+	vr.Z = 260.0;
+	return vr;
+}
+
+int UExperimentUtils::updateFrame(int Frame)
+{
+	Frame++;
+	return Frame;
+}
+
+float UExperimentUtils::updateTimeStamp(FDateTime episodeStart)
+{	
+	FTimespan now = FDateTime::UtcNow() - episodeStart;
+	float timeStamp = UKismetMathLibrary::GetTotalMilliseconds(now) / 1000.0;
+	return timeStamp;
+}

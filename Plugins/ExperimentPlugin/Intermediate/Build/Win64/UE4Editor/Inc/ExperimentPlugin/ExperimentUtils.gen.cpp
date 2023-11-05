@@ -18,10 +18,11 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
 	UPackage* Z_Construct_UPackage__Script_ExperimentPlugin();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FAgentState();
+	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FLocation();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FCoordinates();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FFinishEpisodeRequest();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FFinishEpisodeResponse();
-	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FLocation();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FLocation3();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FRotation3();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FShape();
@@ -31,7 +32,42 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FTransformation();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FUpdateGhostMovementMessage();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FWorldImplementation();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FDateTime();
 // End Cross Module References
+	DEFINE_FUNCTION(UExperimentUtils::execupdateTimeStamp)
+	{
+		P_GET_STRUCT(FDateTime,Z_Param_episodeStart);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(float*)Z_Param__Result=UExperimentUtils::updateTimeStamp(Z_Param_episodeStart);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UExperimentUtils::execupdateFrame)
+	{
+		P_GET_PROPERTY(FIntProperty,Z_Param_Frame);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(int32*)Z_Param__Result=UExperimentUtils::updateFrame(Z_Param_Frame);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UExperimentUtils::execcanonicalToVr)
+	{
+		P_GET_STRUCT(FLocation,Z_Param_canonicalCoordinates);
+		P_GET_PROPERTY(FFloatProperty,Z_Param_mapLength);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(FVector*)Z_Param__Result=UExperimentUtils::canonicalToVr(Z_Param_canonicalCoordinates,Z_Param_mapLength);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UExperimentUtils::execvrToCanonical)
+	{
+		P_GET_STRUCT(FVector,Z_Param_vrCoordinates);
+		P_GET_PROPERTY(FFloatProperty,Z_Param_mapLength);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(FLocation*)Z_Param__Result=UExperimentUtils::vrToCanonical(Z_Param_vrCoordinates,Z_Param_mapLength);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UExperimentUtils::execUpdateGhostMovementMessageToJsonString)
 	{
 		P_GET_STRUCT(FUpdateGhostMovementMessage,Z_Param_structInput);
@@ -261,6 +297,7 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 		UClass* Class = UExperimentUtils::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "AgentStateToJsonString", &UExperimentUtils::execAgentStateToJsonString },
+			{ "canonicalToVr", &UExperimentUtils::execcanonicalToVr },
 			{ "CoordinatesToJsonString", &UExperimentUtils::execCoordinatesToJsonString },
 			{ "FinishEpisodeRequestToJsonString", &UExperimentUtils::execFinishEpisodeRequestToJsonString },
 			{ "FinishEpisodeResponseToJsonString", &UExperimentUtils::execFinishEpisodeResponseToJsonString },
@@ -286,7 +323,10 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 			{ "StartEpisodeRequestToJsonString", &UExperimentUtils::execStartEpisodeRequestToJsonString },
 			{ "StartEpisodeResponseToJsonString", &UExperimentUtils::execStartEpisodeResponseToJsonString },
 			{ "TransformationToJsonString", &UExperimentUtils::execTransformationToJsonString },
+			{ "updateFrame", &UExperimentUtils::execupdateFrame },
 			{ "UpdateGhostMovementMessageToJsonString", &UExperimentUtils::execUpdateGhostMovementMessageToJsonString },
+			{ "updateTimeStamp", &UExperimentUtils::execupdateTimeStamp },
+			{ "vrToCanonical", &UExperimentUtils::execvrToCanonical },
 			{ "WorldImplementationToJsonString", &UExperimentUtils::execWorldImplementationToJsonString },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -325,6 +365,47 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UExperimentUtils_AgentStateToJsonString_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UExperimentUtils_canonicalToVr_Statics
+	{
+		struct ExperimentUtils_eventcanonicalToVr_Parms
+		{
+			FLocation canonicalCoordinates;
+			float mapLength;
+			FVector ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_canonicalCoordinates;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_mapLength;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UExperimentUtils_canonicalToVr_Statics::NewProp_canonicalCoordinates = { "canonicalCoordinates", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ExperimentUtils_eventcanonicalToVr_Parms, canonicalCoordinates), Z_Construct_UScriptStruct_FLocation, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UExperimentUtils_canonicalToVr_Statics::NewProp_mapLength = { "mapLength", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ExperimentUtils_eventcanonicalToVr_Parms, mapLength), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UExperimentUtils_canonicalToVr_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ExperimentUtils_eventcanonicalToVr_Parms, ReturnValue), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UExperimentUtils_canonicalToVr_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UExperimentUtils_canonicalToVr_Statics::NewProp_canonicalCoordinates,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UExperimentUtils_canonicalToVr_Statics::NewProp_mapLength,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UExperimentUtils_canonicalToVr_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UExperimentUtils_canonicalToVr_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/ExperimentUtils.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UExperimentUtils_canonicalToVr_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UExperimentUtils, nullptr, "canonicalToVr", nullptr, nullptr, sizeof(ExperimentUtils_eventcanonicalToVr_Parms), Z_Construct_UFunction_UExperimentUtils_canonicalToVr_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UExperimentUtils_canonicalToVr_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04822401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UExperimentUtils_canonicalToVr_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UExperimentUtils_canonicalToVr_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UExperimentUtils_canonicalToVr()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UExperimentUtils_canonicalToVr_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -1253,6 +1334,43 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UExperimentUtils_updateFrame_Statics
+	{
+		struct ExperimentUtils_eventupdateFrame_Parms
+		{
+			int32 Frame;
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Frame;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UExperimentUtils_updateFrame_Statics::NewProp_Frame = { "Frame", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ExperimentUtils_eventupdateFrame_Parms, Frame), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UExperimentUtils_updateFrame_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ExperimentUtils_eventupdateFrame_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UExperimentUtils_updateFrame_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UExperimentUtils_updateFrame_Statics::NewProp_Frame,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UExperimentUtils_updateFrame_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UExperimentUtils_updateFrame_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/ExperimentUtils.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UExperimentUtils_updateFrame_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UExperimentUtils, nullptr, "updateFrame", nullptr, nullptr, sizeof(ExperimentUtils_eventupdateFrame_Parms), Z_Construct_UFunction_UExperimentUtils_updateFrame_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UExperimentUtils_updateFrame_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UExperimentUtils_updateFrame_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UExperimentUtils_updateFrame_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UExperimentUtils_updateFrame()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UExperimentUtils_updateFrame_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_UExperimentUtils_UpdateGhostMovementMessageToJsonString_Statics
 	{
 		struct ExperimentUtils_eventUpdateGhostMovementMessageToJsonString_Parms
@@ -1287,6 +1405,84 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UExperimentUtils_UpdateGhostMovementMessageToJsonString_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UExperimentUtils_updateTimeStamp_Statics
+	{
+		struct ExperimentUtils_eventupdateTimeStamp_Parms
+		{
+			FDateTime episodeStart;
+			float ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_episodeStart;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UExperimentUtils_updateTimeStamp_Statics::NewProp_episodeStart = { "episodeStart", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ExperimentUtils_eventupdateTimeStamp_Parms, episodeStart), Z_Construct_UScriptStruct_FDateTime, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UExperimentUtils_updateTimeStamp_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ExperimentUtils_eventupdateTimeStamp_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UExperimentUtils_updateTimeStamp_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UExperimentUtils_updateTimeStamp_Statics::NewProp_episodeStart,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UExperimentUtils_updateTimeStamp_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UExperimentUtils_updateTimeStamp_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/ExperimentUtils.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UExperimentUtils_updateTimeStamp_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UExperimentUtils, nullptr, "updateTimeStamp", nullptr, nullptr, sizeof(ExperimentUtils_eventupdateTimeStamp_Parms), Z_Construct_UFunction_UExperimentUtils_updateTimeStamp_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UExperimentUtils_updateTimeStamp_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04822401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UExperimentUtils_updateTimeStamp_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UExperimentUtils_updateTimeStamp_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UExperimentUtils_updateTimeStamp()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UExperimentUtils_updateTimeStamp_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UExperimentUtils_vrToCanonical_Statics
+	{
+		struct ExperimentUtils_eventvrToCanonical_Parms
+		{
+			FVector vrCoordinates;
+			float mapLength;
+			FLocation ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_vrCoordinates;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_mapLength;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UExperimentUtils_vrToCanonical_Statics::NewProp_vrCoordinates = { "vrCoordinates", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ExperimentUtils_eventvrToCanonical_Parms, vrCoordinates), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UExperimentUtils_vrToCanonical_Statics::NewProp_mapLength = { "mapLength", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ExperimentUtils_eventvrToCanonical_Parms, mapLength), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UExperimentUtils_vrToCanonical_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ExperimentUtils_eventvrToCanonical_Parms, ReturnValue), Z_Construct_UScriptStruct_FLocation, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UExperimentUtils_vrToCanonical_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UExperimentUtils_vrToCanonical_Statics::NewProp_vrCoordinates,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UExperimentUtils_vrToCanonical_Statics::NewProp_mapLength,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UExperimentUtils_vrToCanonical_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UExperimentUtils_vrToCanonical_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/ExperimentUtils.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UExperimentUtils_vrToCanonical_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UExperimentUtils, nullptr, "vrToCanonical", nullptr, nullptr, sizeof(ExperimentUtils_eventvrToCanonical_Parms), Z_Construct_UFunction_UExperimentUtils_vrToCanonical_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UExperimentUtils_vrToCanonical_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04822401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UExperimentUtils_vrToCanonical_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UExperimentUtils_vrToCanonical_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UExperimentUtils_vrToCanonical()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UExperimentUtils_vrToCanonical_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -1347,6 +1543,7 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UExperimentUtils_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UExperimentUtils_AgentStateToJsonString, "AgentStateToJsonString" }, // 3425297254
+		{ &Z_Construct_UFunction_UExperimentUtils_canonicalToVr, "canonicalToVr" }, // 2977806069
 		{ &Z_Construct_UFunction_UExperimentUtils_CoordinatesToJsonString, "CoordinatesToJsonString" }, // 2332276949
 		{ &Z_Construct_UFunction_UExperimentUtils_FinishEpisodeRequestToJsonString, "FinishEpisodeRequestToJsonString" }, // 1278413156
 		{ &Z_Construct_UFunction_UExperimentUtils_FinishEpisodeResponseToJsonString, "FinishEpisodeResponseToJsonString" }, // 1648721739
@@ -1372,7 +1569,10 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 		{ &Z_Construct_UFunction_UExperimentUtils_StartEpisodeRequestToJsonString, "StartEpisodeRequestToJsonString" }, // 4082046167
 		{ &Z_Construct_UFunction_UExperimentUtils_StartEpisodeResponseToJsonString, "StartEpisodeResponseToJsonString" }, // 2573744926
 		{ &Z_Construct_UFunction_UExperimentUtils_TransformationToJsonString, "TransformationToJsonString" }, // 3208123554
+		{ &Z_Construct_UFunction_UExperimentUtils_updateFrame, "updateFrame" }, // 4258147584
 		{ &Z_Construct_UFunction_UExperimentUtils_UpdateGhostMovementMessageToJsonString, "UpdateGhostMovementMessageToJsonString" }, // 3462395616
+		{ &Z_Construct_UFunction_UExperimentUtils_updateTimeStamp, "updateTimeStamp" }, // 719841583
+		{ &Z_Construct_UFunction_UExperimentUtils_vrToCanonical, "vrToCanonical" }, // 1821945811
 		{ &Z_Construct_UFunction_UExperimentUtils_WorldImplementationToJsonString, "WorldImplementationToJsonString" }, // 899747818
 	};
 #if WITH_METADATA
@@ -1408,7 +1608,7 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UExperimentUtils, 932537953);
+	IMPLEMENT_CLASS(UExperimentUtils, 283486909);
 	template<> EXPERIMENTPLUGIN_API UClass* StaticClass<UExperimentUtils>()
 	{
 		return UExperimentUtils::StaticClass();
