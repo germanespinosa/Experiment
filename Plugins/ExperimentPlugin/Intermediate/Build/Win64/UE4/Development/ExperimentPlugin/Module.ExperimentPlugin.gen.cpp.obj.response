@@ -31,7 +31,7 @@
 /wd4244
 /wd4838
 /I .
-/I "C:\Research\Experiment 4.27\Plugins\ExperimentPlugin\Source\ExperimentPlugin\Private"
+/I C:\Research\Plugins\ExperimentPlugin\Source\ExperimentPlugin\Private
 /I ..\Intermediate\Build\Win64\UE4\Inc\CoreUObject
 /I Runtime
 /I Runtime\CoreUObject\Public
@@ -121,12 +121,12 @@
 /I Runtime\Networking\Public
 /I ..\Intermediate\Build\Win64\UE4\Inc\JsonUtilities
 /I Runtime\JsonUtilities\Public
-/I "C:\Research\Experiment 4.27\Plugins\TCPMessages\Intermediate\Build\Win64\UE4\Inc\TCPMessages"
-/I "C:\Research\Experiment 4.27\Plugins\TCPMessages\Source"
-/I "C:\Research\Experiment 4.27\Plugins\TCPMessages\Source\TCPMessages\Public"
-/I "C:\Research\Experiment 4.27\Plugins\ExperimentPlugin\Intermediate\Build\Win64\UE4\Inc\ExperimentPlugin"
-/I "C:\Research\Experiment 4.27\Plugins\ExperimentPlugin\Source"
-/I "C:\Research\Experiment 4.27\Plugins\ExperimentPlugin\Source\ExperimentPlugin\Public"
+/I C:\Research\Plugins\TCPMessages\Intermediate\Build\Win64\UE4\Inc\TCPMessages
+/I C:\Research\Plugins\TCPMessages\Source
+/I C:\Research\Plugins\TCPMessages\Source\TCPMessages\Public
+/I C:\Research\Plugins\ExperimentPlugin\Intermediate\Build\Win64\UE4\Inc\ExperimentPlugin
+/I C:\Research\Plugins\ExperimentPlugin\Source
+/I C:\Research\Plugins\ExperimentPlugin\Source\ExperimentPlugin\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -151,17 +151,17 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
 /I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\include\um"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"C:\Research\Experiment 4.27\Intermediate\Build\Win64\Experiment\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Research\Experiment 4.27\Intermediate\Build\Win64\Experiment\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Research\Experiment 4.27\Intermediate\Build\Win64\Experiment\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Research\Experiment 4.27\Plugins\ExperimentPlugin\Intermediate\Build\Win64\UE4\Development\ExperimentPlugin\Module.ExperimentPlugin.gen.cpp"
-/FI"C:\Research\Experiment 4.27\Plugins\ExperimentPlugin\Intermediate\Build\Win64\UE4\Development\ExperimentPlugin\Definitions.ExperimentPlugin.h"
-/Fo"C:\Research\Experiment 4.27\Plugins\ExperimentPlugin\Intermediate\Build\Win64\UE4\Development\ExperimentPlugin\Module.ExperimentPlugin.gen.cpp.obj"
+/FI"C:\Research\Intermediate\Build\Win64\Experiment\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Research\Intermediate\Build\Win64\Experiment\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Research\Intermediate\Build\Win64\Experiment\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Research\Plugins\ExperimentPlugin\Intermediate\Build\Win64\UE4\Development\ExperimentPlugin\Module.ExperimentPlugin.gen.cpp"
+/FI"C:\Research\Plugins\ExperimentPlugin\Intermediate\Build\Win64\UE4\Development\ExperimentPlugin\Definitions.ExperimentPlugin.h"
+/Fo"C:\Research\Plugins\ExperimentPlugin\Intermediate\Build\Win64\UE4\Development\ExperimentPlugin\Module.ExperimentPlugin.gen.cpp.obj"
 /TP
 /GR-
 /W4
