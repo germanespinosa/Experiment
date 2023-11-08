@@ -1,13 +1,5 @@
 {
 	"RemapUnityFiles": 
 	{
-		"Module.TCPMessages.cpp.obj": [
-			"MessageClient.cpp.obj",
-			"TCPMessages.cpp.obj"
-		],
-		"Module.TCPMessages.gen.cpp.obj": [
-			"MessageClient.gen.cpp.obj",
-			"TCPMessages.init.gen.cpp.obj"
-		]
 	}
 }

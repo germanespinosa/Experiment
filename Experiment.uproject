@@ -19,12 +19,21 @@
 				"Win64",
 				"Android"
 			]
+		},
+		{
+			"Name": "OnlineSubsystemGooglePlay",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Android"
+			]
+		},
+		{
+			"Name": "AndroidPermission",
+			"Enabled": false
+		},
+		{
+			"Name": "GooglePAD",
+			"Enabled": false
 		}
-	],
-	"TargetPlatforms": [
-		"AllDesktop",
-		"LinuxNoEditor",
-		"LinuxAArch64NoEditor",
-		"WindowsNoEditor"
 	]
 }
