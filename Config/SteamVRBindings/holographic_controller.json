@@ -39,6 +39,28 @@
 							"output": "/actions/main/in/ResetVR"
 						}
 					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/y",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/HardResetLevel"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/x",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/SoftResetLevel"
+						}
+					}
 				}
 			],
 			"poses": [
