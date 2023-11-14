@@ -105,4 +105,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = Experiment)
 		static float updateTimeStamp(FDateTime episodeStart);
 
+	UFUNCTION(BlueprintCallable, Category = Experiment)
+		static FStep JsonStringToStep(FString jsonString);
+
 };

@@ -29,11 +29,20 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FSpace();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FStartEpisodeRequest();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FStartEpisodeResponse();
+	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FStep();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FTransformation();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FUpdateGhostMovementMessage();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FWorldImplementation();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FDateTime();
 // End Cross Module References
+	DEFINE_FUNCTION(UExperimentUtils::execJsonStringToStep)
+	{
+		P_GET_PROPERTY(FStrProperty,Z_Param_jsonString);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(FStep*)Z_Param__Result=UExperimentUtils::JsonStringToStep(Z_Param_jsonString);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UExperimentUtils::execupdateTimeStamp)
 	{
 		P_GET_STRUCT(FDateTime,Z_Param_episodeStart);
@@ -312,6 +321,7 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 			{ "JsonStringToSpace", &UExperimentUtils::execJsonStringToSpace },
 			{ "JsonStringToStartEpisodeRequest", &UExperimentUtils::execJsonStringToStartEpisodeRequest },
 			{ "JsonStringToStartEpisodeResponse", &UExperimentUtils::execJsonStringToStartEpisodeResponse },
+			{ "JsonStringToStep", &UExperimentUtils::execJsonStringToStep },
 			{ "JsonStringToTransformation", &UExperimentUtils::execJsonStringToTransformation },
 			{ "JsonStringToUpdateGhostMovementMessage", &UExperimentUtils::execJsonStringToUpdateGhostMovementMessage },
 			{ "JsonStringToWorldImplementation", &UExperimentUtils::execJsonStringToWorldImplementation },
@@ -924,6 +934,43 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UExperimentUtils_JsonStringToStartEpisodeResponse_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UExperimentUtils_JsonStringToStep_Statics
+	{
+		struct ExperimentUtils_eventJsonStringToStep_Parms
+		{
+			FString jsonString;
+			FStep ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_jsonString;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UExperimentUtils_JsonStringToStep_Statics::NewProp_jsonString = { "jsonString", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ExperimentUtils_eventJsonStringToStep_Parms, jsonString), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UExperimentUtils_JsonStringToStep_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ExperimentUtils_eventJsonStringToStep_Parms, ReturnValue), Z_Construct_UScriptStruct_FStep, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UExperimentUtils_JsonStringToStep_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UExperimentUtils_JsonStringToStep_Statics::NewProp_jsonString,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UExperimentUtils_JsonStringToStep_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UExperimentUtils_JsonStringToStep_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/ExperimentUtils.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UExperimentUtils_JsonStringToStep_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UExperimentUtils, nullptr, "JsonStringToStep", nullptr, nullptr, sizeof(ExperimentUtils_eventJsonStringToStep_Parms), Z_Construct_UFunction_UExperimentUtils_JsonStringToStep_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UExperimentUtils_JsonStringToStep_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UExperimentUtils_JsonStringToStep_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UExperimentUtils_JsonStringToStep_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UExperimentUtils_JsonStringToStep()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UExperimentUtils_JsonStringToStep_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -1558,6 +1605,7 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 		{ &Z_Construct_UFunction_UExperimentUtils_JsonStringToSpace, "JsonStringToSpace" }, // 2600209432
 		{ &Z_Construct_UFunction_UExperimentUtils_JsonStringToStartEpisodeRequest, "JsonStringToStartEpisodeRequest" }, // 1921396302
 		{ &Z_Construct_UFunction_UExperimentUtils_JsonStringToStartEpisodeResponse, "JsonStringToStartEpisodeResponse" }, // 3049800439
+		{ &Z_Construct_UFunction_UExperimentUtils_JsonStringToStep, "JsonStringToStep" }, // 3008902525
 		{ &Z_Construct_UFunction_UExperimentUtils_JsonStringToTransformation, "JsonStringToTransformation" }, // 3643020070
 		{ &Z_Construct_UFunction_UExperimentUtils_JsonStringToUpdateGhostMovementMessage, "JsonStringToUpdateGhostMovementMessage" }, // 4141253072
 		{ &Z_Construct_UFunction_UExperimentUtils_JsonStringToWorldImplementation, "JsonStringToWorldImplementation" }, // 3793486502
@@ -1608,7 +1656,7 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UExperimentUtils, 283486909);
+	IMPLEMENT_CLASS(UExperimentUtils, 2513576677);
 	template<> EXPERIMENTPLUGIN_API UClass* StaticClass<UExperimentUtils>()
 	{
 		return UExperimentUtils::StaticClass();

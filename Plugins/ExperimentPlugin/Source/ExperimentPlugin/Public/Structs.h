@@ -30,6 +30,27 @@ public:
 };
 
 USTRUCT(Blueprintable)
+struct FStep
+{
+	GENERATED_BODY()
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Experiment)
+	FLocation location;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Experiment)
+	float rotation;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Experiment)
+	int frame;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Experiment)
+	float time_stamp;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Experiment)
+	FString agent_name;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Experiment)
+	FString data;
+
+};
+
+
+USTRUCT(Blueprintable)
 struct FCoordinates
 {
 	GENERATED_BODY()

@@ -168,6 +168,13 @@ FString UExperimentUtils::UpdateGhostMovementMessageToJsonString(FUpdateGhostMov
 	return jsonString;
 }
 
+FStep UExperimentUtils::JsonStringToStep(FString jsonString) {
+	FStep structOutput;
+	FJsonObjectConverter::JsonObjectStringToUStruct(jsonString, &structOutput, 0, 0);
+	return structOutput;
+}
+
+
 FLocation UExperimentUtils::vrToCanonical(FVector vrCoordinates, float mapLength) {
 	FLocation canonical;
 	float halfMap = 0.5 * mapLength;

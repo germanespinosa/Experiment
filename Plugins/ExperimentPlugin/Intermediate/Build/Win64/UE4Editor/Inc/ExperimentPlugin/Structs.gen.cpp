@@ -30,6 +30,7 @@ void EmptyLinkFunctionForGeneratedCodeStructs() {}
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FLocation3();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FRotation3();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FCoordinates();
+	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FStep();
 // End Cross Module References
 class UScriptStruct* FColumnsWrapper::StaticStruct()
 {
@@ -1422,6 +1423,151 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFCoordinates
 		return ReturnStruct;
 	}
 	uint32 Get_Z_Construct_UScriptStruct_FCoordinates_Hash() { return 108233492U; }
+class UScriptStruct* FStep::StaticStruct()
+{
+	static class UScriptStruct* Singleton = NULL;
+	if (!Singleton)
+	{
+		extern EXPERIMENTPLUGIN_API uint32 Get_Z_Construct_UScriptStruct_FStep_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FStep, Z_Construct_UPackage__Script_ExperimentPlugin(), TEXT("Step"), sizeof(FStep), Get_Z_Construct_UScriptStruct_FStep_Hash());
+	}
+	return Singleton;
+}
+template<> EXPERIMENTPLUGIN_API UScriptStruct* StaticStruct<FStep>()
+{
+	return FStep::StaticStruct();
+}
+static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FStep(FStep::StaticStruct, TEXT("/Script/ExperimentPlugin"), TEXT("Step"), false, nullptr, nullptr);
+static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFStep
+{
+	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFStep()
+	{
+		UScriptStruct::DeferCppStructOps<FStep>(FName(TEXT("Step")));
+	}
+} ScriptStruct_ExperimentPlugin_StaticRegisterNativesFStep;
+	struct Z_Construct_UScriptStruct_FStep_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
+#endif
+		static void* NewStructOps();
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_location_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_location;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_rotation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_rotation;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_frame_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_frame;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_time_stamp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_time_stamp;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_agent_name_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_agent_name;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_data_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_data;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FStep_Statics::Struct_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "IsBlueprintBase", "true" },
+		{ "ModuleRelativePath", "Public/Structs.h" },
+	};
+#endif
+	void* Z_Construct_UScriptStruct_FStep_Statics::NewStructOps()
+	{
+		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FStep>();
+	}
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FStep_Statics::NewProp_location_MetaData[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/Structs.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FStep_Statics::NewProp_location = { "location", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FStep, location), Z_Construct_UScriptStruct_FLocation, METADATA_PARAMS(Z_Construct_UScriptStruct_FStep_Statics::NewProp_location_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStep_Statics::NewProp_location_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FStep_Statics::NewProp_rotation_MetaData[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/Structs.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FStep_Statics::NewProp_rotation = { "rotation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FStep, rotation), METADATA_PARAMS(Z_Construct_UScriptStruct_FStep_Statics::NewProp_rotation_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStep_Statics::NewProp_rotation_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FStep_Statics::NewProp_frame_MetaData[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/Structs.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UScriptStruct_FStep_Statics::NewProp_frame = { "frame", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FStep, frame), METADATA_PARAMS(Z_Construct_UScriptStruct_FStep_Statics::NewProp_frame_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStep_Statics::NewProp_frame_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FStep_Statics::NewProp_time_stamp_MetaData[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/Structs.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FStep_Statics::NewProp_time_stamp = { "time_stamp", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FStep, time_stamp), METADATA_PARAMS(Z_Construct_UScriptStruct_FStep_Statics::NewProp_time_stamp_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStep_Statics::NewProp_time_stamp_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FStep_Statics::NewProp_agent_name_MetaData[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/Structs.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FStep_Statics::NewProp_agent_name = { "agent_name", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FStep, agent_name), METADATA_PARAMS(Z_Construct_UScriptStruct_FStep_Statics::NewProp_agent_name_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStep_Statics::NewProp_agent_name_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FStep_Statics::NewProp_data_MetaData[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/Structs.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FStep_Statics::NewProp_data = { "data", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FStep, data), METADATA_PARAMS(Z_Construct_UScriptStruct_FStep_Statics::NewProp_data_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStep_Statics::NewProp_data_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FStep_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStep_Statics::NewProp_location,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStep_Statics::NewProp_rotation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStep_Statics::NewProp_frame,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStep_Statics::NewProp_time_stamp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStep_Statics::NewProp_agent_name,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStep_Statics::NewProp_data,
+	};
+	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FStep_Statics::ReturnStructParams = {
+		(UObject* (*)())Z_Construct_UPackage__Script_ExperimentPlugin,
+		nullptr,
+		&NewStructOps,
+		"Step",
+		sizeof(FStep),
+		alignof(FStep),
+		Z_Construct_UScriptStruct_FStep_Statics::PropPointers,
+		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStep_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(Z_Construct_UScriptStruct_FStep_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStep_Statics::Struct_MetaDataParams))
+	};
+	UScriptStruct* Z_Construct_UScriptStruct_FStep()
+	{
+#if WITH_HOT_RELOAD
+		extern uint32 Get_Z_Construct_UScriptStruct_FStep_Hash();
+		UPackage* Outer = Z_Construct_UPackage__Script_ExperimentPlugin();
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("Step"), sizeof(FStep), Get_Z_Construct_UScriptStruct_FStep_Hash(), false);
+#else
+		static UScriptStruct* ReturnStruct = nullptr;
+#endif
+		if (!ReturnStruct)
+		{
+			UE4CodeGen_Private::ConstructUScriptStruct(ReturnStruct, Z_Construct_UScriptStruct_FStep_Statics::ReturnStructParams);
+		}
+		return ReturnStruct;
+	}
+	uint32 Get_Z_Construct_UScriptStruct_FStep_Hash() { return 3250658004U; }
 class UScriptStruct* FLocation::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
