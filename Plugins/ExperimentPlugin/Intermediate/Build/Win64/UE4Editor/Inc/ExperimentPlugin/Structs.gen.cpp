@@ -13,11 +13,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeStructs() {}
 // Cross Module References
-	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FColumnsWrapper();
+	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FCellGroup();
 	UPackage* Z_Construct_UPackage__Script_ExperimentPlugin();
+	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FCell();
+	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FCoordinates();
+	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FLocation();
+	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FColumnsWrapper();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FWorldImplementation();
-	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FLocation();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FSpace();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FTransformation();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FShape();
@@ -29,9 +32,222 @@ void EmptyLinkFunctionForGeneratedCodeStructs() {}
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FAgentState();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FLocation3();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FRotation3();
-	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FCoordinates();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FStep();
 // End Cross Module References
+class UScriptStruct* FCellGroup::StaticStruct()
+{
+	static class UScriptStruct* Singleton = NULL;
+	if (!Singleton)
+	{
+		extern EXPERIMENTPLUGIN_API uint32 Get_Z_Construct_UScriptStruct_FCellGroup_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FCellGroup, Z_Construct_UPackage__Script_ExperimentPlugin(), TEXT("CellGroup"), sizeof(FCellGroup), Get_Z_Construct_UScriptStruct_FCellGroup_Hash());
+	}
+	return Singleton;
+}
+template<> EXPERIMENTPLUGIN_API UScriptStruct* StaticStruct<FCellGroup>()
+{
+	return FCellGroup::StaticStruct();
+}
+static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FCellGroup(FCellGroup::StaticStruct, TEXT("/Script/ExperimentPlugin"), TEXT("CellGroup"), false, nullptr, nullptr);
+static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFCellGroup
+{
+	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFCellGroup()
+	{
+		UScriptStruct::DeferCppStructOps<FCellGroup>(FName(TEXT("CellGroup")));
+	}
+} ScriptStruct_ExperimentPlugin_StaticRegisterNativesFCellGroup;
+	struct Z_Construct_UScriptStruct_FCellGroup_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
+#endif
+		static void* NewStructOps();
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_cell_locations_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cell_locations_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_cell_locations;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCellGroup_Statics::Struct_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "IsBlueprintBase", "true" },
+		{ "ModuleRelativePath", "Public/Structs.h" },
+	};
+#endif
+	void* Z_Construct_UScriptStruct_FCellGroup_Statics::NewStructOps()
+	{
+		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FCellGroup>();
+	}
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCellGroup_Statics::NewProp_cell_locations_Inner = { "cell_locations", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FCell, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCellGroup_Statics::NewProp_cell_locations_MetaData[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/Structs.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FCellGroup_Statics::NewProp_cell_locations = { "cell_locations", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FCellGroup, cell_locations), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FCellGroup_Statics::NewProp_cell_locations_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCellGroup_Statics::NewProp_cell_locations_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FCellGroup_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCellGroup_Statics::NewProp_cell_locations_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCellGroup_Statics::NewProp_cell_locations,
+	};
+	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FCellGroup_Statics::ReturnStructParams = {
+		(UObject* (*)())Z_Construct_UPackage__Script_ExperimentPlugin,
+		nullptr,
+		&NewStructOps,
+		"CellGroup",
+		sizeof(FCellGroup),
+		alignof(FCellGroup),
+		Z_Construct_UScriptStruct_FCellGroup_Statics::PropPointers,
+		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCellGroup_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(Z_Construct_UScriptStruct_FCellGroup_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCellGroup_Statics::Struct_MetaDataParams))
+	};
+	UScriptStruct* Z_Construct_UScriptStruct_FCellGroup()
+	{
+#if WITH_HOT_RELOAD
+		extern uint32 Get_Z_Construct_UScriptStruct_FCellGroup_Hash();
+		UPackage* Outer = Z_Construct_UPackage__Script_ExperimentPlugin();
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("CellGroup"), sizeof(FCellGroup), Get_Z_Construct_UScriptStruct_FCellGroup_Hash(), false);
+#else
+		static UScriptStruct* ReturnStruct = nullptr;
+#endif
+		if (!ReturnStruct)
+		{
+			UE4CodeGen_Private::ConstructUScriptStruct(ReturnStruct, Z_Construct_UScriptStruct_FCellGroup_Statics::ReturnStructParams);
+		}
+		return ReturnStruct;
+	}
+	uint32 Get_Z_Construct_UScriptStruct_FCellGroup_Hash() { return 3768453620U; }
+class UScriptStruct* FCell::StaticStruct()
+{
+	static class UScriptStruct* Singleton = NULL;
+	if (!Singleton)
+	{
+		extern EXPERIMENTPLUGIN_API uint32 Get_Z_Construct_UScriptStruct_FCell_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FCell, Z_Construct_UPackage__Script_ExperimentPlugin(), TEXT("Cell"), sizeof(FCell), Get_Z_Construct_UScriptStruct_FCell_Hash());
+	}
+	return Singleton;
+}
+template<> EXPERIMENTPLUGIN_API UScriptStruct* StaticStruct<FCell>()
+{
+	return FCell::StaticStruct();
+}
+static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FCell(FCell::StaticStruct, TEXT("/Script/ExperimentPlugin"), TEXT("Cell"), false, nullptr, nullptr);
+static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFCell
+{
+	FScriptStruct_ExperimentPlugin_StaticRegisterNativesFCell()
+	{
+		UScriptStruct::DeferCppStructOps<FCell>(FName(TEXT("Cell")));
+	}
+} ScriptStruct_ExperimentPlugin_StaticRegisterNativesFCell;
+	struct Z_Construct_UScriptStruct_FCell_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
+#endif
+		static void* NewStructOps();
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_id_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_id;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_coordinates_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_coordinates;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_location_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_location;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_occluded_MetaData[];
+#endif
+		static void NewProp_occluded_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_occluded;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCell_Statics::Struct_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "IsBlueprintBase", "true" },
+		{ "ModuleRelativePath", "Public/Structs.h" },
+	};
+#endif
+	void* Z_Construct_UScriptStruct_FCell_Statics::NewStructOps()
+	{
+		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FCell>();
+	}
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCell_Statics::NewProp_id_MetaData[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/Structs.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UScriptStruct_FCell_Statics::NewProp_id = { "id", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FCell, id), METADATA_PARAMS(Z_Construct_UScriptStruct_FCell_Statics::NewProp_id_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCell_Statics::NewProp_id_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCell_Statics::NewProp_coordinates_MetaData[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/Structs.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCell_Statics::NewProp_coordinates = { "coordinates", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FCell, coordinates), Z_Construct_UScriptStruct_FCoordinates, METADATA_PARAMS(Z_Construct_UScriptStruct_FCell_Statics::NewProp_coordinates_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCell_Statics::NewProp_coordinates_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCell_Statics::NewProp_location_MetaData[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/Structs.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCell_Statics::NewProp_location = { "location", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FCell, location), Z_Construct_UScriptStruct_FLocation, METADATA_PARAMS(Z_Construct_UScriptStruct_FCell_Statics::NewProp_location_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCell_Statics::NewProp_location_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCell_Statics::NewProp_occluded_MetaData[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/Structs.h" },
+	};
+#endif
+	void Z_Construct_UScriptStruct_FCell_Statics::NewProp_occluded_SetBit(void* Obj)
+	{
+		((FCell*)Obj)->occluded = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FCell_Statics::NewProp_occluded = { "occluded", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FCell), &Z_Construct_UScriptStruct_FCell_Statics::NewProp_occluded_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FCell_Statics::NewProp_occluded_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCell_Statics::NewProp_occluded_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FCell_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCell_Statics::NewProp_id,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCell_Statics::NewProp_coordinates,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCell_Statics::NewProp_location,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCell_Statics::NewProp_occluded,
+	};
+	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FCell_Statics::ReturnStructParams = {
+		(UObject* (*)())Z_Construct_UPackage__Script_ExperimentPlugin,
+		nullptr,
+		&NewStructOps,
+		"Cell",
+		sizeof(FCell),
+		alignof(FCell),
+		Z_Construct_UScriptStruct_FCell_Statics::PropPointers,
+		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCell_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(Z_Construct_UScriptStruct_FCell_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCell_Statics::Struct_MetaDataParams))
+	};
+	UScriptStruct* Z_Construct_UScriptStruct_FCell()
+	{
+#if WITH_HOT_RELOAD
+		extern uint32 Get_Z_Construct_UScriptStruct_FCell_Hash();
+		UPackage* Outer = Z_Construct_UPackage__Script_ExperimentPlugin();
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("Cell"), sizeof(FCell), Get_Z_Construct_UScriptStruct_FCell_Hash(), false);
+#else
+		static UScriptStruct* ReturnStruct = nullptr;
+#endif
+		if (!ReturnStruct)
+		{
+			UE4CodeGen_Private::ConstructUScriptStruct(ReturnStruct, Z_Construct_UScriptStruct_FCell_Statics::ReturnStructParams);
+		}
+		return ReturnStruct;
+	}
+	uint32 Get_Z_Construct_UScriptStruct_FCell_Hash() { return 2315111706U; }
 class UScriptStruct* FColumnsWrapper::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;

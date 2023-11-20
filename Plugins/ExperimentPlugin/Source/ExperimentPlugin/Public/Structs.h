@@ -256,3 +256,29 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Experiment)
 	TArray<AActor*> Columns;
 };
+
+USTRUCT(Blueprintable)
+struct FCell {
+	GENERATED_BODY()
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Experiment)
+		int id;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Experiment)
+		FCoordinates coordinates;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Experiment)
+		FLocation location;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Experiment)
+		bool occluded;
+};
+
+USTRUCT(Blueprintable)
+struct FCellGroup{
+	GENERATED_BODY()
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Experiment)
+	TArray<FCell> cell_locations;
+};

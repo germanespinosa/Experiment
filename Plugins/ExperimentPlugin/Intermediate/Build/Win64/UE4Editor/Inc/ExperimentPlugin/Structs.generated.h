@@ -13,6 +13,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define EXPERIMENTPLUGIN_Structs_generated_h
 
+#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_Structs_h_280_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FCellGroup_Statics; \
+	EXPERIMENTPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> EXPERIMENTPLUGIN_API UScriptStruct* StaticStruct<struct FCellGroup>();
+
+#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_Structs_h_262_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FCell_Statics; \
+	EXPERIMENTPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> EXPERIMENTPLUGIN_API UScriptStruct* StaticStruct<struct FCell>();
+
 #define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_Structs_h_254_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FColumnsWrapper_Statics; \
 	EXPERIMENTPLUGIN_API static class UScriptStruct* StaticStruct();

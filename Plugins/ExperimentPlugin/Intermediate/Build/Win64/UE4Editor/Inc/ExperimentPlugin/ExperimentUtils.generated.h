@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FCellGroup;
 struct FStep;
 struct FDateTime;
 struct FLocation;
@@ -33,6 +34,7 @@ struct FAgentState;
 #define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_SPARSE_DATA
 #define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execJsonStringToCellGroup); \
 	DECLARE_FUNCTION(execJsonStringToStep); \
 	DECLARE_FUNCTION(execupdateTimeStamp); \
 	DECLARE_FUNCTION(execupdateFrame); \
@@ -70,6 +72,7 @@ struct FAgentState;
 
 #define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execJsonStringToCellGroup); \
 	DECLARE_FUNCTION(execJsonStringToStep); \
 	DECLARE_FUNCTION(execupdateTimeStamp); \
 	DECLARE_FUNCTION(execupdateFrame); \

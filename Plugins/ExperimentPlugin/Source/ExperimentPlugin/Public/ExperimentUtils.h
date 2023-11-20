@@ -108,4 +108,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = Experiment)
 		static FStep JsonStringToStep(FString jsonString);
 
+	UFUNCTION(BlueprintCallable, Category = Experiment)
+		static FCellGroup JsonStringToCellGroup(FString jsonString);
+
 };

@@ -174,6 +174,12 @@ FStep UExperimentUtils::JsonStringToStep(FString jsonString) {
 	return structOutput;
 }
 
+FCellGroup UExperimentUtils::JsonStringToCellGroup(FString jsonString) {
+	FCellGroup structOutput;
+	FJsonObjectConverter::JsonObjectStringToUStruct(jsonString, &structOutput, 0);
+	return structOutput;
+}
+
 
 FLocation UExperimentUtils::vrToCanonical(FVector vrCoordinates, float mapLength) {
 	FLocation canonical;

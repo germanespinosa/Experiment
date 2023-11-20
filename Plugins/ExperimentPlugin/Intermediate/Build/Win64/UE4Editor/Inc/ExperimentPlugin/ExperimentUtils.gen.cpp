@@ -23,6 +23,7 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FCoordinates();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FFinishEpisodeRequest();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FFinishEpisodeResponse();
+	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FCellGroup();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FLocation3();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FRotation3();
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FShape();
@@ -35,6 +36,14 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 	EXPERIMENTPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FWorldImplementation();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FDateTime();
 // End Cross Module References
+	DEFINE_FUNCTION(UExperimentUtils::execJsonStringToCellGroup)
+	{
+		P_GET_PROPERTY(FStrProperty,Z_Param_jsonString);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(FCellGroup*)Z_Param__Result=UExperimentUtils::JsonStringToCellGroup(Z_Param_jsonString);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UExperimentUtils::execJsonStringToStep)
 	{
 		P_GET_PROPERTY(FStrProperty,Z_Param_jsonString);
@@ -311,6 +320,7 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 			{ "FinishEpisodeRequestToJsonString", &UExperimentUtils::execFinishEpisodeRequestToJsonString },
 			{ "FinishEpisodeResponseToJsonString", &UExperimentUtils::execFinishEpisodeResponseToJsonString },
 			{ "JsonStringToAgentState", &UExperimentUtils::execJsonStringToAgentState },
+			{ "JsonStringToCellGroup", &UExperimentUtils::execJsonStringToCellGroup },
 			{ "JsonStringToCoordinates", &UExperimentUtils::execJsonStringToCoordinates },
 			{ "JsonStringToFinishEpisodeRequest", &UExperimentUtils::execJsonStringToFinishEpisodeRequest },
 			{ "JsonStringToFinishEpisodeResponse", &UExperimentUtils::execJsonStringToFinishEpisodeResponse },
@@ -564,6 +574,43 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UExperimentUtils_JsonStringToAgentState_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UExperimentUtils_JsonStringToCellGroup_Statics
+	{
+		struct ExperimentUtils_eventJsonStringToCellGroup_Parms
+		{
+			FString jsonString;
+			FCellGroup ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_jsonString;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UExperimentUtils_JsonStringToCellGroup_Statics::NewProp_jsonString = { "jsonString", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ExperimentUtils_eventJsonStringToCellGroup_Parms, jsonString), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UExperimentUtils_JsonStringToCellGroup_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ExperimentUtils_eventJsonStringToCellGroup_Parms, ReturnValue), Z_Construct_UScriptStruct_FCellGroup, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UExperimentUtils_JsonStringToCellGroup_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UExperimentUtils_JsonStringToCellGroup_Statics::NewProp_jsonString,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UExperimentUtils_JsonStringToCellGroup_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UExperimentUtils_JsonStringToCellGroup_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Experiment" },
+		{ "ModuleRelativePath", "Public/ExperimentUtils.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UExperimentUtils_JsonStringToCellGroup_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UExperimentUtils, nullptr, "JsonStringToCellGroup", nullptr, nullptr, sizeof(ExperimentUtils_eventJsonStringToCellGroup_Parms), Z_Construct_UFunction_UExperimentUtils_JsonStringToCellGroup_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UExperimentUtils_JsonStringToCellGroup_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UExperimentUtils_JsonStringToCellGroup_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UExperimentUtils_JsonStringToCellGroup_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UExperimentUtils_JsonStringToCellGroup()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UExperimentUtils_JsonStringToCellGroup_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -1595,6 +1642,7 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 		{ &Z_Construct_UFunction_UExperimentUtils_FinishEpisodeRequestToJsonString, "FinishEpisodeRequestToJsonString" }, // 1278413156
 		{ &Z_Construct_UFunction_UExperimentUtils_FinishEpisodeResponseToJsonString, "FinishEpisodeResponseToJsonString" }, // 1648721739
 		{ &Z_Construct_UFunction_UExperimentUtils_JsonStringToAgentState, "JsonStringToAgentState" }, // 4019016096
+		{ &Z_Construct_UFunction_UExperimentUtils_JsonStringToCellGroup, "JsonStringToCellGroup" }, // 1369412708
 		{ &Z_Construct_UFunction_UExperimentUtils_JsonStringToCoordinates, "JsonStringToCoordinates" }, // 4041105327
 		{ &Z_Construct_UFunction_UExperimentUtils_JsonStringToFinishEpisodeRequest, "JsonStringToFinishEpisodeRequest" }, // 605802354
 		{ &Z_Construct_UFunction_UExperimentUtils_JsonStringToFinishEpisodeResponse, "JsonStringToFinishEpisodeResponse" }, // 1484944562
@@ -1656,7 +1704,7 @@ void EmptyLinkFunctionForGeneratedCodeExperimentUtils() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UExperimentUtils, 2513576677);
+	IMPLEMENT_CLASS(UExperimentUtils, 1212090185);
 	template<> EXPERIMENTPLUGIN_API UClass* StaticClass<UExperimentUtils>()
 	{
 		return UExperimentUtils::StaticClass();
