@@ -1,5 +1,6 @@
 #include "ExperimentUtils.h"
 
+
 FAgentState UExperimentUtils::JsonStringToAgentState(FString jsonString) {
 	FAgentState structOutput;
 	FJsonObjectConverter::JsonObjectStringToUStruct(jsonString, &structOutput, 0, 0);
@@ -180,7 +181,13 @@ FCellGroup UExperimentUtils::JsonStringToCellGroup(FString jsonString) {
 	return structOutput;
 }
 
-
+/// <summary>
+///		Reads in a filePath, which contains the indices of the occlusions to spawn.
+///		Requires reading the cell_locations from hexagonal.canonical
+/// </summary>
+/// <param name="filePath"></param>
+/// <param name="readStatus"></param>
+/// <returns></returns>
 FLocation UExperimentUtils::vrToCanonical(FVector vrCoordinates, float mapLength) {
 	FLocation canonical;
 	float halfMap = 0.5 * mapLength;
@@ -189,6 +196,13 @@ FLocation UExperimentUtils::vrToCanonical(FVector vrCoordinates, float mapLength
 	return canonical;
 }
 
+/// <summary>
+///		Reads in a filePath, which contains the indices of the occlusions to spawn.
+///		Requires reading the cell_locations from hexagonal.canonical
+/// </summary>
+/// <param name="filePath"></param>
+/// <param name="readStatus"></param>
+/// <returns></returns>
 FVector UExperimentUtils::canonicalToVr(FLocation canonicalCoordinates, float mapLength) {
 	FVector vr;
 	float halfMap = 0.5 * mapLength;
@@ -198,15 +212,138 @@ FVector UExperimentUtils::canonicalToVr(FLocation canonicalCoordinates, float ma
 	return vr;
 }
 
+/// <summary>
+///		Reads in a filePath, which contains the indices of the occlusions to spawn.
+///		Requires reading the cell_locations from hexagonal.canonical
+/// </summary>
+/// <param name="filePath"></param>
+/// <param name="readStatus"></param>
+/// <returns></returns>
 int UExperimentUtils::updateFrame(int Frame)
 {
 	Frame++;
 	return Frame;
 }
 
+/// <summary>
+///		Reads in a filePath, which contains the indices of the occlusions to spawn.
+///		Requires reading the cell_locations from hexagonal.canonical
+/// </summary>
+/// <param name="filePath"></param>
+/// <param name="readStatus"></param>
+/// <returns></returns>
 float UExperimentUtils::updateTimeStamp(FDateTime episodeStart)
 {	
 	FTimespan now = FDateTime::UtcNow() - episodeStart;
 	float timeStamp = UKismetMathLibrary::GetTotalMilliseconds(now) / 1000.0;
 	return timeStamp;
 }
+
+FString UExperimentUtils::LoadWorldImplementation(FString filePath)
+{
+	// Use JsonStringToWorldImplementation()
+	// See if File Exists
+	if (!FPlatformFileManager::Get().GetPlatformFile().FileExists(*filePath))
+	{
+		// FWorldImplementation world_info
+		return "";
+	}
+
+	FString jsonString = "";
+
+	// Attempt to read file
+	if (!FFileHelper::LoadFileToString(jsonString, *filePath))
+	{
+		return "";
+	}
+
+	return jsonString;
+}
+
+/// <summary>
+///		Reads in a filePath, which contains the indices of the occlusions to spawn.
+///		Requires reading the cell_locations from hexagonal.canonical
+/// </summary>
+/// <param name="filePath"></param>
+/// <param name="readStatus"></param>
+/// <returns></returns>
+TArray<FLocation> UExperimentUtils::LoadOcclusions(FString filePath, bool& readStatus, float mapLength)
+{
+	// Get cell_locations from world_implementation
+		// 1. Get world_implementation as jsonString
+		// 2. Convert to world_implementation
+		// 3. Convert to vr locations
+	FString jsonString = LoadWorldImplementation("C:/Research/hexagonal.canonical");
+	FWorldImplementation world_impl = JsonStringToWorldImplementation(jsonString);
+
+	// Properly loads the file with cell_locations
+	//if(GEngine)
+	//	UE_LOG(LogTemp, Warning, TEXT("%s"), *jsonString);
+	TArray<FLocation> vr_cell_locs;
+
+	if (GEngine)
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Loaded Canonical World"));
+
+	// See if file exists
+	if (!FPlatformFileManager::Get().GetPlatformFile().FileExists(*filePath))
+	{
+		// FWorldImplementation world_info
+		readStatus = false;
+		if (GEngine)
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Can't Find Cell Group File"));
+		return vr_cell_locs;
+	}
+
+	FString retString = "";
+
+	// Attempt a file read, output stored in retString
+	if (!FFileHelper::LoadFileToString(retString, *filePath))
+	{
+		readStatus = false;
+		if (GEngine)
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Can't Load Cell Group File"));
+		return vr_cell_locs;
+	}
+
+	if (GEngine)
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, retString);
+	
+	const TCHAR* delims[] = { TEXT(","), TEXT("["), TEXT("]") };
+	TArray<FString> parsed;
+	//FString Str = TEXT("Parse,Into,Array,,Example");
+	//Str.ParseIntoArray(&parsed, TEXT(","), false);
+	retString.ParseIntoArray(parsed, delims, 3);
+	TArray<int> indices;
+
+	for (int i = 0; i < parsed.Num(); i++)
+	{
+		// Add parsed index into array
+		indices.Add(UKismetStringLibrary::Conv_StringToInt(parsed[i]) );
+		FString idx_str = parsed[i];
+		//if (GEngine)
+			//UE_LOG(LogTemp, Warning, TEXT("%s"), *idx_str);
+			//UE_LOG(LogTemp, Warning, TEXT("%f,%f"), world_impl.cell_locations[i].x, world_impl.cell_locations[i].y)
+	}
+
+	// retString has a string version of all of the indices we need
+	FLocation vr_converted;
+	FVector vr_vector;
+	// For idx in FString loaded from file...
+	for (int i = 0; i < indices.Num(); i++)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Index: %d"), indices[i]);
+		UE_LOG(LogTemp, Warning, TEXT("%f,%f"), world_impl.cell_locations[indices[i]].x, world_impl.cell_locations[indices[i]].y)
+		vr_vector = canonicalToVr(world_impl.cell_locations[indices[i]], mapLength);
+		vr_converted.x = vr_vector.X;
+		vr_converted.y = vr_vector.Y;
+		UE_LOG(LogTemp, Warning, TEXT("%f,%f"), vr_converted.x, vr_converted.y);
+		vr_cell_locs.Add(vr_converted);
+	}
+
+	if (GEngine)
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Finished Converting Indices to Canonical"));
+
+	readStatus = true;
+	return vr_cell_locs;	
+}
+

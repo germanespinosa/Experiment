@@ -12,5 +12,7 @@ C:\Research\Plugins\ExperimentPlugin\Intermediate\Build\Win64\UE4Editor\Inc\Expe
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetStringLibrary.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetStringLibrary.generated.h
 C:\Research\Plugins\ExperimentPlugin\Intermediate\Build\Win64\UE4Editor\Inc\ExperimentPlugin\ExperimentUtils.generated.h
 C:/Research/Plugins/ExperimentPlugin/Intermediate/Build/Win64/UE4Editor/Inc/ExperimentPlugin/Structs.gen.cpp

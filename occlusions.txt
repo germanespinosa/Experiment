@@ -1,0 +1,111 @@
+LogTemp: Warning: Index: 3
+LogTemp: Warning: 0.078125,0.418810
+LogTemp: Warning: -793.125000,152.636963
+LogTemp: Warning: Index: 18
+LogTemp: Warning: 0.148438,0.540595
+LogTemp: Warning: -660.937500,-76.318481
+LogTemp: Warning: Index: 24
+LogTemp: Warning: 0.171875,0.500000
+LogTemp: Warning: -616.875000,0.000000
+LogTemp: Warning: Index: 34
+LogTemp: Warning: 0.195312,0.702975
+LogTemp: Warning: -572.812500,-381.592407
+LogTemp: Warning: Index: 36
+LogTemp: Warning: 0.218750,0.175240
+LogTemp: Warning: -528.750000,610.547913
+LogTemp: Warning: Index: 48
+LogTemp: Warning: 0.242188,0.378215
+LogTemp: Warning: -484.687500,228.955505
+LogTemp: Warning: Index: 58
+LogTemp: Warning: 0.265625,0.337620
+LogTemp: Warning: -440.625000,305.273987
+LogTemp: Warning: Index: 68
+LogTemp: Warning: 0.289062,0.297025
+LogTemp: Warning: -396.562500,381.592468
+LogTemp: Warning: Index: 78
+LogTemp: Warning: 0.312500,0.256430
+LogTemp: Warning: -352.500000,457.910919
+LogTemp: Warning: Index: 82
+LogTemp: Warning: 0.312500,0.581190
+LogTemp: Warning: -352.500000,-152.636963
+LogTemp: Warning: Index: 93
+LogTemp: Warning: 0.335938,0.621785
+LogTemp: Warning: -308.437500,-228.955444
+LogTemp: Warning: Index: 116
+LogTemp: Warning: 0.382812,0.784165
+LogTemp: Warning: -220.312500,-534.229492
+LogTemp: Warning: Index: 121
+LogTemp: Warning: 0.406250,0.337620
+LogTemp: Warning: -176.250000,305.273987
+LogTemp: Warning: Index: 123
+LogTemp: Warning: 0.406250,0.500000
+LogTemp: Warning: -176.250000,0.000000
+LogTemp: Warning: Index: 131
+LogTemp: Warning: 0.429688,0.297025
+LogTemp: Warning: -132.187500,381.592468
+LogTemp: Warning: Index: 141
+LogTemp: Warning: 0.453125,0.256430
+LogTemp: Warning: -88.125000,457.910919
+LogTemp: Warning: Index: 157
+LogTemp: Warning: 0.476562,0.702975
+LogTemp: Warning: -44.062500,-381.592407
+LogTemp: Warning: Index: 163
+LogTemp: Warning: 0.500000,0.337620
+LogTemp: Warning: 0.000000,305.273987
+LogTemp: Warning: Index: 164
+LogTemp: Warning: 0.500000,0.418810
+LogTemp: Warning: 0.000000,152.636963
+LogTemp: Warning: Index: 171
+LogTemp: Warning: 0.523438,0.134646
+LogTemp: Warning: 44.062500,686.866394
+LogTemp: Warning: Index: 176
+LogTemp: Warning: 0.523438,0.540595
+LogTemp: Warning: 44.062500,-76.318481
+LogTemp: Warning: Index: 204
+LogTemp: Warning: 0.593750,0.256430
+LogTemp: Warning: 176.250000,457.910919
+LogTemp: Warning: Index: 211
+LogTemp: Warning: 0.593750,0.824760
+LogTemp: Warning: 176.250000,-610.547974
+LogTemp: Warning: Index: 230
+LogTemp: Warning: 0.640625,0.662380
+LogTemp: Warning: 264.375000,-305.273926
+LogTemp: Warning: Index: 232
+LogTemp: Warning: 0.640625,0.824760
+LogTemp: Warning: 264.375000,-610.547974
+LogTemp: Warning: Index: 237
+LogTemp: Warning: 0.664062,0.378215
+LogTemp: Warning: 308.437500,228.955505
+LogTemp: Warning: Index: 238
+LogTemp: Warning: 0.664062,0.459405
+LogTemp: Warning: 308.437500,76.318481
+LogTemp: Warning: Index: 245
+LogTemp: Warning: 0.687500,0.175240
+LogTemp: Warning: 352.500000,610.547913
+LogTemp: Warning: Index: 248
+LogTemp: Warning: 0.687500,0.418810
+LogTemp: Warning: 352.500000,152.636963
+LogTemp: Warning: Index: 260
+LogTemp: Warning: 0.710938,0.540595
+LogTemp: Warning: 396.562500,-76.318481
+LogTemp: Warning: Index: 266
+LogTemp: Warning: 0.734375,0.175240
+LogTemp: Warning: 440.625000,610.547913
+LogTemp: Warning: Index: 276
+LogTemp: Warning: 0.757812,0.134646
+LogTemp: Warning: 484.687500,686.866394
+LogTemp: Warning: Index: 292
+LogTemp: Warning: 0.781250,0.662380
+LogTemp: Warning: 528.750000,-305.273926
+LogTemp: Warning: Index: 313
+LogTemp: Warning: 0.851562,0.540595
+LogTemp: Warning: 660.937500,-76.318481
+LogTemp: Warning: Index: 317
+LogTemp: Warning: 0.875000,0.418810
+LogTemp: Warning: 705.000000,152.636963
+LogTemp: Warning: Index: 325
+LogTemp: Warning: 0.921875,0.418810
+LogTemp: Warning: 793.125000,152.636963
+
+0.96875,0.5
+881.25,0

@@ -1,7 +1,10 @@
 #pragma once
 #include "Structs.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "Kismet/KismetStringLibrary.h"
+#include "HAL/PlatformFileManager.h"
 #include "ExperimentUtils.generated.h"
+
 
 
 UCLASS()
@@ -110,5 +113,10 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = Experiment)
 		static FCellGroup JsonStringToCellGroup(FString jsonString);
+
+	UFUNCTION(BlueprintCallable, Category = Experiment)
+		static TArray<FLocation> LoadOcclusions(FString filePath, bool& readStatus, float mapLength);
+
+		static FString LoadWorldImplementation(FString filePath);
 
 };

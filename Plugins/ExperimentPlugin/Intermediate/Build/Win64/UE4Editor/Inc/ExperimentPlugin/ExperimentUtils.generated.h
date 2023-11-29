@@ -8,10 +8,10 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FLocation;
 struct FCellGroup;
 struct FStep;
 struct FDateTime;
-struct FLocation;
 struct FVector;
 struct FUpdateGhostMovementMessage;
 struct FFinishEpisodeResponse;
@@ -31,9 +31,10 @@ struct FAgentState;
 #endif
 #define EXPERIMENTPLUGIN_ExperimentUtils_generated_h
 
-#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_SPARSE_DATA
-#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_RPC_WRAPPERS \
+#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_SPARSE_DATA
+#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execLoadOcclusions); \
 	DECLARE_FUNCTION(execJsonStringToCellGroup); \
 	DECLARE_FUNCTION(execJsonStringToStep); \
 	DECLARE_FUNCTION(execupdateTimeStamp); \
@@ -70,8 +71,9 @@ struct FAgentState;
 	DECLARE_FUNCTION(execJsonStringToAgentState);
 
 
-#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execLoadOcclusions); \
 	DECLARE_FUNCTION(execJsonStringToCellGroup); \
 	DECLARE_FUNCTION(execJsonStringToStep); \
 	DECLARE_FUNCTION(execupdateTimeStamp); \
@@ -108,7 +110,7 @@ struct FAgentState;
 	DECLARE_FUNCTION(execJsonStringToAgentState);
 
 
-#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_INCLASS_NO_PURE_DECLS \
+#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUExperimentUtils(); \
 	friend struct Z_Construct_UClass_UExperimentUtils_Statics; \
@@ -117,7 +119,7 @@ public: \
 	DECLARE_SERIALIZER(UExperimentUtils)
 
 
-#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_INCLASS \
+#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesUExperimentUtils(); \
 	friend struct Z_Construct_UClass_UExperimentUtils_Statics; \
@@ -126,7 +128,7 @@ public: \
 	DECLARE_SERIALIZER(UExperimentUtils)
 
 
-#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_STANDARD_CONSTRUCTORS \
+#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UExperimentUtils(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UExperimentUtils) \
@@ -139,7 +141,7 @@ private: \
 public:
 
 
-#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_ENHANCED_CONSTRUCTORS \
+#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UExperimentUtils(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -152,28 +154,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UExperimentUtils)
 
 
-#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_PRIVATE_PROPERTY_OFFSET
-#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_7_PROLOG
-#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_GENERATED_BODY_LEGACY \
+#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_PRIVATE_PROPERTY_OFFSET
+#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_PROLOG
+#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_PRIVATE_PROPERTY_OFFSET \
-	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_SPARSE_DATA \
-	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_RPC_WRAPPERS \
-	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_INCLASS \
-	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_STANDARD_CONSTRUCTORS \
+	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_PRIVATE_PROPERTY_OFFSET \
+	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_SPARSE_DATA \
+	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_RPC_WRAPPERS \
+	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_INCLASS \
+	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_GENERATED_BODY \
+#define Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_PRIVATE_PROPERTY_OFFSET \
-	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_SPARSE_DATA \
-	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
-	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_INCLASS_NO_PURE_DECLS \
-	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_10_ENHANCED_CONSTRUCTORS \
+	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_PRIVATE_PROPERTY_OFFSET \
+	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_SPARSE_DATA \
+	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_INCLASS_NO_PURE_DECLS \
+	Research_Plugins_ExperimentPlugin_Source_ExperimentPlugin_Public_ExperimentUtils_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
