@@ -263,8 +263,9 @@ FString UExperimentUtils::LoadWorldImplementation(FString filePath)
 /// <summary>
 ///		Reads in a filePath, which contains the indices of the occlusions to spawn.
 ///		Requires reading the cell_locations from hexagonal.canonical
+///		Values are HARDCODED at the moment. Can be optimized later.
 /// </summary>
-/// <param name="filePath"></param>
+/// <param name="filePath"> The File Path to the World with Specified Entropy</param>
 /// <param name="readStatus"></param>
 /// <returns></returns>
 TArray<FLocation> UExperimentUtils::LoadOcclusions(FString filePath, bool& readStatus, float mapLength)
