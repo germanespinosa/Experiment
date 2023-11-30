@@ -150,7 +150,7 @@ struct FStartEpisodeRequest
 	GENERATED_BODY()
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Experiment)
-		int participant_id;
+		FString experiment_name;
 };
 
 USTRUCT(Blueprintable)
@@ -171,7 +171,7 @@ struct FFinishEpisodeRequest
 	GENERATED_BODY()
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Experiment)
-		int participant_id;
+		FString experiment_name;
 };
 
 USTRUCT(Blueprintable)

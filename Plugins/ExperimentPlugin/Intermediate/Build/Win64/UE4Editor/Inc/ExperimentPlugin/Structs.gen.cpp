@@ -950,9 +950,9 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFFinishEpisode
 #endif
 		static void* NewStructOps();
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_participant_id_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_experiment_name_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_participant_id;
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_experiment_name;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
 	};
@@ -968,14 +968,14 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFFinishEpisode
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FFinishEpisodeRequest>();
 	}
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFinishEpisodeRequest_Statics::NewProp_participant_id_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFinishEpisodeRequest_Statics::NewProp_experiment_name_MetaData[] = {
 		{ "Category", "Experiment" },
 		{ "ModuleRelativePath", "Public/Structs.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UScriptStruct_FFinishEpisodeRequest_Statics::NewProp_participant_id = { "participant_id", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FFinishEpisodeRequest, participant_id), METADATA_PARAMS(Z_Construct_UScriptStruct_FFinishEpisodeRequest_Statics::NewProp_participant_id_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFinishEpisodeRequest_Statics::NewProp_participant_id_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FFinishEpisodeRequest_Statics::NewProp_experiment_name = { "experiment_name", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FFinishEpisodeRequest, experiment_name), METADATA_PARAMS(Z_Construct_UScriptStruct_FFinishEpisodeRequest_Statics::NewProp_experiment_name_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFinishEpisodeRequest_Statics::NewProp_experiment_name_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FFinishEpisodeRequest_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFinishEpisodeRequest_Statics::NewProp_participant_id,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFinishEpisodeRequest_Statics::NewProp_experiment_name,
 	};
 	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FFinishEpisodeRequest_Statics::ReturnStructParams = {
 		(UObject* (*)())Z_Construct_UPackage__Script_ExperimentPlugin,
@@ -1005,7 +1005,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFFinishEpisode
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FFinishEpisodeRequest_Hash() { return 563856334U; }
+	uint32 Get_Z_Construct_UScriptStruct_FFinishEpisodeRequest_Hash() { return 11252116U; }
 class UScriptStruct* FStartEpisodeResponse::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
@@ -1135,9 +1135,9 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFStartEpisodeR
 #endif
 		static void* NewStructOps();
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_participant_id_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_experiment_name_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_participant_id;
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_experiment_name;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
 	};
@@ -1153,14 +1153,14 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFStartEpisodeR
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FStartEpisodeRequest>();
 	}
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FStartEpisodeRequest_Statics::NewProp_participant_id_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FStartEpisodeRequest_Statics::NewProp_experiment_name_MetaData[] = {
 		{ "Category", "Experiment" },
 		{ "ModuleRelativePath", "Public/Structs.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UScriptStruct_FStartEpisodeRequest_Statics::NewProp_participant_id = { "participant_id", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FStartEpisodeRequest, participant_id), METADATA_PARAMS(Z_Construct_UScriptStruct_FStartEpisodeRequest_Statics::NewProp_participant_id_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStartEpisodeRequest_Statics::NewProp_participant_id_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FStartEpisodeRequest_Statics::NewProp_experiment_name = { "experiment_name", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FStartEpisodeRequest, experiment_name), METADATA_PARAMS(Z_Construct_UScriptStruct_FStartEpisodeRequest_Statics::NewProp_experiment_name_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStartEpisodeRequest_Statics::NewProp_experiment_name_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FStartEpisodeRequest_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStartEpisodeRequest_Statics::NewProp_participant_id,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStartEpisodeRequest_Statics::NewProp_experiment_name,
 	};
 	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FStartEpisodeRequest_Statics::ReturnStructParams = {
 		(UObject* (*)())Z_Construct_UPackage__Script_ExperimentPlugin,
@@ -1190,7 +1190,7 @@ static struct FScriptStruct_ExperimentPlugin_StaticRegisterNativesFStartEpisodeR
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FStartEpisodeRequest_Hash() { return 801015763U; }
+	uint32 Get_Z_Construct_UScriptStruct_FStartEpisodeRequest_Hash() { return 4293476243U; }
 class UScriptStruct* FAgentState::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
