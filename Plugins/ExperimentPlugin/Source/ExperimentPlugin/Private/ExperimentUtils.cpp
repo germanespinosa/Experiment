@@ -278,20 +278,17 @@ TArray<FLocation> UExperimentUtils::LoadOcclusions(FString filePath, bool& readS
 	FWorldImplementation world_impl = JsonStringToWorldImplementation(jsonString);
 
 	// Properly loads the file with cell_locations
-	//if(GEngine)
-	//	UE_LOG(LogTemp, Warning, TEXT("%s"), *jsonString);
+	// UE_LOG(LogTemp, Warning, TEXT("%s"), *jsonString);
 	TArray<FLocation> vr_cell_locs;
 
-	if (GEngine)
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Loaded Canonical World"));
+	//UE_LOG(LogTemp, Warning, TEXT("Loaded Canonical World"));
 
 	// See if file exists
 	if (!FPlatformFileManager::Get().GetPlatformFile().FileExists(*filePath))
 	{
 		// FWorldImplementation world_info
 		readStatus = false;
-		if (GEngine)
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Can't Find Cell Group File"));
+		UE_LOG(LogTemp, Warning, TEXT("Can't Find Cell Group File"));
 		return vr_cell_locs;
 	}
 
@@ -301,18 +298,14 @@ TArray<FLocation> UExperimentUtils::LoadOcclusions(FString filePath, bool& readS
 	if (!FFileHelper::LoadFileToString(retString, *filePath))
 	{
 		readStatus = false;
-		if (GEngine)
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Can't Load Cell Group File"));
+		UE_LOG(LogTemp, Warning, TEXT("Can't Load Cell Group File"));
 		return vr_cell_locs;
 	}
 
-	if (GEngine)
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, retString);
+	//UE_LOG(LogTemp, Warning, TEXT("%s"), *retString);
 	
 	const TCHAR* delims[] = { TEXT(","), TEXT("["), TEXT("]") };
 	TArray<FString> parsed;
-	//FString Str = TEXT("Parse,Into,Array,,Example");
-	//Str.ParseIntoArray(&parsed, TEXT(","), false);
 	retString.ParseIntoArray(parsed, delims, 3);
 	TArray<int> indices;
 
@@ -321,29 +314,23 @@ TArray<FLocation> UExperimentUtils::LoadOcclusions(FString filePath, bool& readS
 		// Add parsed index into array
 		indices.Add(UKismetStringLibrary::Conv_StringToInt(parsed[i]) );
 		FString idx_str = parsed[i];
-		//if (GEngine)
-			//UE_LOG(LogTemp, Warning, TEXT("%s"), *idx_str);
-			//UE_LOG(LogTemp, Warning, TEXT("%f,%f"), world_impl.cell_locations[i].x, world_impl.cell_locations[i].y)
 	}
 
 	// retString has a string version of all of the indices we need
 	FLocation vr_converted;
 	FVector vr_vector;
-	// For idx in FString loaded from file...
-	for (int i = 0; i < indices.Num(); i++)
+	for (int i = 0; i < indices.Num(); i++) // For idx in FString loaded from file...
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Index: %d"), indices[i]);
-		UE_LOG(LogTemp, Warning, TEXT("%f,%f"), world_impl.cell_locations[indices[i]].x, world_impl.cell_locations[indices[i]].y)
+		//UE_LOG(LogTemp, Warning, TEXT("Index: %d"), indices[i]);
+		//UE_LOG(LogTemp, Warning, TEXT("%f,%f"), world_impl.cell_locations[indices[i]].x, world_impl.cell_locations[indices[i]].y)
 		vr_vector = canonicalToVr(world_impl.cell_locations[indices[i]], mapLength);
 		vr_converted.x = vr_vector.X;
 		vr_converted.y = vr_vector.Y;
-		UE_LOG(LogTemp, Warning, TEXT("%f,%f"), vr_converted.x, vr_converted.y);
+		//UE_LOG(LogTemp, Warning, TEXT("%f,%f"), vr_converted.x, vr_converted.y);
 		vr_cell_locs.Add(vr_converted);
 	}
 
-	if (GEngine)
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Finished Converting Indices to Canonical"));
-
+	UE_LOG(LogTemp, Warning, TEXT("Finished Converting Indices to Canonical"));
 	readStatus = true;
 	return vr_cell_locs;	
 }

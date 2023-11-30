@@ -148,14 +148,6 @@
 			"requirement": "optional"
 		},
 		{
-			"name": "/actions/main/in/Jump",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/Fire",
-			"type": "boolean"
-		},
-		{
 			"name": "/actions/main/in/ResetVR",
 			"type": "boolean"
 		},
@@ -165,6 +157,10 @@
 		},
 		{
 			"name": "/actions/main/in/SoftResetLevel",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/ToggleEpisode",
 			"type": "boolean"
 		},
 		{
@@ -432,11 +428,10 @@
 			"/actions/main/out/vibrateleft": "Haptic (Left)",
 			"/actions/main/out/vibrateright": "Haptic (Right)",
 			"/actions/main/in/open_console": "Open Console",
-			"/actions/main/in/Jump": "Jump",
-			"/actions/main/in/Fire": "Fire",
 			"/actions/main/in/ResetVR": "ResetVR",
 			"/actions/main/in/HardResetLevel": "HardResetLevel",
 			"/actions/main/in/SoftResetLevel": "SoftResetLevel",
+			"/actions/main/in/ToggleEpisode": "ToggleEpisode",
 			"/actions/main/in/MoveForward axis": "MoveForward",
 			"/actions/main/in/MoveRight axis": "MoveRight",
 			"/actions/main/in/TurnRate axis": "TurnRate",

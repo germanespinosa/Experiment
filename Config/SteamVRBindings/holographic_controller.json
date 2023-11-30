@@ -8,28 +8,6 @@
 		{
 			"sources": [
 				{
-					"mode": "trigger",
-					"path": "/user/hand/left/input/trigger",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/Jump"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/trigger",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/Fire"
-						}
-					}
-				},
-				{
 					"mode": "joystick",
 					"path": "/user/hand/left/input/joystick",
 					"inputs":
@@ -59,6 +37,17 @@
 						"click":
 						{
 							"output": "/actions/main/in/SoftResetLevel"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/a",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/ToggleEpisode"
 						}
 					}
 				}
